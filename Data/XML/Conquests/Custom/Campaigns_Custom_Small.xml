@@ -1,0 +1,1060 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+<!-- *********************************************************************** -->
+<!-- ******************* SANDBOX CAMPAIGN "From The Ground Up" ************* -->
+<!-- *********************************************************************** -->
+
+
+	<Campaign Name="Sandbox_Custom_Small_Rebel">
+
+		<Campaign_Set> Sandbox_Custom_Small </Campaign_Set>
+		<Sort_Order>409</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+
+        <Text_ID> TEXT_CAMPAIGN_HEADER_CUSTOM </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_DESCRIPTION_CUSTOM </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Aargonar,
+			Abregado_Rae,
+			Agamar,
+			Alderaan,
+			Alzoc,
+			Anaxes,
+			Arkania,
+			Balmorra,
+			Barlok,
+			Bestine,
+			Bomis_Koori,
+			Boonta,
+			Bothawui,
+			Boz_Pity,
+			Carida,
+			Cato_Neimoidia,
+			Charros,
+			Christophsis,
+			Ciutric,
+			Corellia,
+			Corsin,
+			Coruscant,
+			Dantooine,
+			Dathomir,
+			Deko_Neimoidia,
+			Delacrix,
+			Denon,
+			Devaron,
+			Druckenwell,
+			Eriadu,
+			Felucia,
+			Florrum,
+			Foerost,
+			Fondor,
+			Galaxy_Core_Art_Model,
+			Gamorr,
+			Geonosis,
+			Hollastin,
+			Honoghr,
+			Humbarine,
+			Hypori,
+			Jabiim,
+			Kaikielius,
+			Kamino,
+			Kashyyyk,
+			Kirima,
+			Klatooine,
+			Korda,
+			Kuat,
+			Lola_Sayu,
+			Malastare,
+			Mandalore,
+			Maridun,
+			Mimban,
+			Mon_Calamari,
+			Mulatan,
+			Mustafar,
+			Muunilinst,
+			Mygeeto,
+			Naboo,
+			Nal_Hutta,
+			Nar_Hekka,
+			Nar_Shaddaa,
+			Nubia,
+			Onderon,
+			Ord_Mantell,
+			Pammant,
+			Phaeda,
+			Praesitlyn,
+			Raxus_Second,
+			Rendili,
+			Rhen_Var,
+			Ringneldia,
+			Rodia,
+			Ronyards,
+			Rothana,
+			Ruusan,
+			Ryndellia,
+			Saleucami,
+			Serenno,
+			Sleheyron,
+			Sullust,
+			Thule,
+			Tibrin,
+			Toydaria,
+			Ubrikkia,
+			Umbara,
+			Utapau,
+			YagDhul,
+			Yavin,
+			Ylesia,
+		</Locations>
+		<Trade_Routes>
+			Aargonar_Charros,
+			Aargonar_Mandalore,
+			Aargonar_Maridun,
+			Aargonar_Rhen_Var,
+			Aargonar_Saleucami,
+			Abregado_Rae_Corellia,
+			Abregado_Rae_Fondor,
+			Abregado_Rae_Kaikielius,
+			Agamar_Ciutric,
+			Agamar_Corsin,
+			Agamar_Dantooine,
+			Agamar_Dathomir,
+			Agamar_Mygeeto,
+			Agamar_Phaeda,
+			Alderaan_Anaxes,
+			Alderaan_Carida,
+			Alderaan_Coruscant,
+			Alderaan_Kaikielius,
+			Alderaan_Kuat,
+			Alderaan_Rendili,
+			Alzoc_Geonosis,
+			Alzoc_Praesitlyn,
+			Alzoc_Ryndellia,
+			Alzoc_Utapau,
+			Anaxes_Arkania,
+			Anaxes_Barlok,
+			Anaxes_Coruscant,
+			Arkania_Barlok,
+			Arkania_Carida,
+			Arkania_Corsin,
+			Balmorra_Carida,
+			Balmorra_Deko_Neimoidia,
+			Balmorra_Kuat,
+			Balmorra_Onderon,
+			Barlok_Ord_Mantell,
+			Bestine_Devaron,
+			Bestine_Kirima,
+			Bestine_YagDhul,
+			Bomis_Koori_Fondor,
+			Bomis_Koori_Tibrin,
+			Bomis_Koori_YagDhul,
+			Boonta_Klatooine,
+			Boonta_Ringneldia,
+			Boonta_Saleucami,
+			Bothawui_Christophsis,
+			Bothawui_Druckenwell,
+			Bothawui_Kamino,
+			Bothawui_Ruusan,
+			Bothawui_Toydaria,
+			Boz_Pity_Charros,
+			Boz_Pity_Saleucami,
+			Boz_Pity_Sleheyron,
+			Carida_Corsin,
+			Carida_Korda,
+			Cato_Neimoidia_Deko_Neimoidia,
+			Cato_Neimoidia_Humbarine,
+			Cato_Neimoidia_Nubia,
+			Cato_Neimoidia_Rendili,
+			Charros_Kashyyyk,
+			Charros_Ubrikkia,
+			Christophsis_Druckenwell,
+			Christophsis_Geonosis,
+			Christophsis_Rodia,
+			Christophsis_Ryndellia,
+			Ciutric_Dantooine,
+			Ciutric_Dathomir,
+			Ciutric_Serenno,
+			Corellia_Devaron,
+			Corellia_Nubia,
+			Corellia_Rendili,
+			Corsin_Korda,
+			Corsin_Mandalore,
+			Corsin_Ord_Mantell,
+			Coruscant_Foerost,
+			Coruscant_Kaikielius,
+			Dantooine_Muunilinst,
+			Dantooine_Mygeeto,
+			Dathomir_Mandalore,
+			Dathomir_Yavin,
+			Deko_Neimoidia_Mimban,
+			Deko_Neimoidia_Onderon,
+			Delacrix_Honoghr,
+			Delacrix_Klatooine,
+			Delacrix_Ringneldia,
+			Denon_Mimban,
+			Denon_Nubia,
+			Denon_Ronyards,
+			Devaron_Fondor,
+			Devaron_Ronyards,
+			Druckenwell_Kirima,
+			Druckenwell_Mimban,
+			Druckenwell_Ronyards,
+			Eriadu_Praesitlyn,
+			Eriadu_Ryndellia,
+			Eriadu_Sullust,
+			Eriadu_Tibrin,
+			Felucia_Florrum,
+			Felucia_Lola_Sayu,
+			Felucia_Raxus_Second,
+			Florrum_Raxus_Second,
+			Florrum_Thule,
+			Foerost_Kaikielius,
+			Fondor_YagDhul,
+			Gamorr_Hollastin,
+			Gamorr_Kamino,
+			Gamorr_Rothana,
+			Gamorr_Ylesia,
+			Geonosis_Hypori,
+			Geonosis_Rodia,
+			Hollastin_Nal_Hutta,
+			Hollastin_Nar_Hekka,
+			Honoghr_Sleheyron,
+			Honoghr_Ylesia,
+			Humbarine_Kuat,
+			Humbarine_Rendili,
+			Hypori_Kamino,
+			Hypori_Rothana,
+			Jabiim_Mon_Calamari,
+			Jabiim_Rhen_Var,
+			Jabiim_Ringneldia,
+			Jabiim_Saleucami,
+			Kaikielius_Rendili,
+			Kamino_Rodia,
+			Kashyyyk_Korda,
+			Kashyyyk_Ruusan,
+			Kashyyyk_Umbara,
+			Kirima_Malastare,
+			Kirima_Naboo,
+			Kirima_Ronyards,
+			Klatooine_Sleheyron,
+			Korda_Mandalore,
+			Korda_Onderon,
+			Lola_Sayu_Maridun,
+			Lola_Sayu_Rhen_Var,
+			Lola_Sayu_Thule,
+			Malastare_Naboo,
+			Malastare_Sullust,
+			Malastare_YagDhul,
+			Mandalore_Maridun,
+			Maridun_Yavin,
+			Mimban_Nubia,
+			Mimban_Ruusan,
+			Mimban_Umbara,
+			Mon_Calamari_Pammant,
+			Mon_Calamari_Raxus_Second,
+			Mon_Calamari_Rhen_Var,
+			Mulatan_Nar_Shaddaa,
+			Mulatan_Sleheyron,
+			Mulatan_Ubrikkia,
+			Mulatan_Ylesia,
+			Mustafar_Tibrin,
+			Mustafar_Utapau,
+			Muunilinst_Mygeeto,
+			Mygeeto_Phaeda,
+			Naboo_Ryndellia,
+			Nal_Hutta_Nar_Hekka,
+			Nal_Hutta_Toydaria,
+			Nar_Hekka_Nar_Shaddaa,
+			Nar_Hekka_Ylesia,
+			Nar_Shaddaa_Toydaria,
+			Onderon_Umbara,
+			Ord_Mantell_Phaeda,
+			Pammant_Ringneldia,
+			Praesitlyn_Utapau,
+			Ruusan_Ubrikkia,
+			Ruusan_Umbara,
+			Serenno_Thule,
+			Serenno_Yavin,
+			Sullust_Tibrin,
+			Thule_Yavin,
+			Toydaria_Ubrikkia,
+		</Trade_Routes>
+
+        <Home_Location> Rebel, Raxus </Home_Location>
+		 <Home_Location> Empire, Coruscant </Home_Location>
+
+        <Starting_Active_Player> Rebel </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\CloneWarsFTGU\Story_Plots_Sandbox_FTGU_Rebel.xml</Rebel_Story_Name>
+        <Empire_Story_Name>Conquests\Custom\Story_Plots_Sandbox_Custom_Empire.xml</Empire_Story_Name>
+		<Underworld_Story_Name>Conquests\Custom\Story_Plots_Sandbox_Custom_Container.xml</Underworld_Story_Name>
+		<Story_Name>Hutt_Cartels, Conquests\Story_Plots_Generic_Hutt_Cartels.xml</Story_Name>
+
+		<AI_Player_Control> Rebel, SandboxHuman </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+		<AI_Player_Control> Hutt_Cartels, None </AI_Player_Control>
+
+		<AI_Player_Control> Hostile, None </AI_Player_Control>
+		<AI_Player_Control> Banking_Clan, None</AI_Player_Control>
+		<AI_Player_Control> Trade_Federation, None </AI_Player_Control>
+		<AI_Player_Control> Commerce_Guild, None </AI_Player_Control>      
+		<AI_Player_Control> Techno_Union, None </AI_Player_Control>
+		<AI_Player_Control> Sector_Forces, None </AI_Player_Control>
+		<AI_Player_Control> Independent_Forces, None </AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Commerce_Guild, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Banking_Clan, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Techno_Union, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Sector_Forces, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Hostile, DefaultGalacticHints </Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Starting_Credits> Independent_Forces,  300000 </Starting_Credits>
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		<!-- Hutt_Cartels Starting Forces -->
+
+		<Starting_Credits> Hutt_Cartels,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Hutt_Cartels, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Hutt_Cartels, 5 </Max_Tech_Level>
+
+	</Campaign>
+
+	<Campaign Name="Sandbox_Custom_Small_Empire">
+
+		<Campaign_Set> Sandbox_Custom_Small </Campaign_Set>
+		<Sort_Order>409</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+
+        <Text_ID> TEXT_CAMPAIGN_HEADER_CUSTOM </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_DESCRIPTION_CUSTOM </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Aargonar,
+			Abregado_Rae,
+			Agamar,
+			Alderaan,
+			Alzoc,
+			Anaxes,
+			Arkania,
+			Balmorra,
+			Barlok,
+			Bestine,
+			Bomis_Koori,
+			Boonta,
+			Bothawui,
+			Boz_Pity,
+			Carida,
+			Cato_Neimoidia,
+			Charros,
+			Christophsis,
+			Ciutric,
+			Corellia,
+			Corsin,
+			Coruscant,
+			Dantooine,
+			Dathomir,
+			Deko_Neimoidia,
+			Delacrix,
+			Denon,
+			Devaron,
+			Druckenwell,
+			Eriadu,
+			Felucia,
+			Florrum,
+			Foerost,
+			Fondor,
+			Galaxy_Core_Art_Model,
+			Gamorr,
+			Geonosis,
+			Hollastin,
+			Honoghr,
+			Humbarine,
+			Hypori,
+			Jabiim,
+			Kaikielius,
+			Kamino,
+			Kashyyyk,
+			Kirima,
+			Klatooine,
+			Korda,
+			Kuat,
+			Lola_Sayu,
+			Malastare,
+			Mandalore,
+			Maridun,
+			Mimban,
+			Mon_Calamari,
+			Mulatan,
+			Mustafar,
+			Muunilinst,
+			Mygeeto,
+			Naboo,
+			Nal_Hutta,
+			Nar_Hekka,
+			Nar_Shaddaa,
+			Nubia,
+			Onderon,
+			Ord_Mantell,
+			Pammant,
+			Phaeda,
+			Praesitlyn,
+			Raxus_Second,
+			Rendili,
+			Rhen_Var,
+			Ringneldia,
+			Rodia,
+			Ronyards,
+			Rothana,
+			Ruusan,
+			Ryndellia,
+			Saleucami,
+			Serenno,
+			Sleheyron,
+			Sullust,
+			Thule,
+			Tibrin,
+			Toydaria,
+			Ubrikkia,
+			Umbara,
+			Utapau,
+			YagDhul,
+			Yavin,
+			Ylesia,
+		</Locations>
+		<Trade_Routes>
+			Aargonar_Charros,
+			Aargonar_Mandalore,
+			Aargonar_Maridun,
+			Aargonar_Rhen_Var,
+			Aargonar_Saleucami,
+			Abregado_Rae_Corellia,
+			Abregado_Rae_Fondor,
+			Abregado_Rae_Kaikielius,
+			Agamar_Ciutric,
+			Agamar_Corsin,
+			Agamar_Dantooine,
+			Agamar_Dathomir,
+			Agamar_Mygeeto,
+			Agamar_Phaeda,
+			Alderaan_Anaxes,
+			Alderaan_Carida,
+			Alderaan_Coruscant,
+			Alderaan_Kaikielius,
+			Alderaan_Kuat,
+			Alderaan_Rendili,
+			Alzoc_Geonosis,
+			Alzoc_Praesitlyn,
+			Alzoc_Ryndellia,
+			Alzoc_Utapau,
+			Anaxes_Arkania,
+			Anaxes_Barlok,
+			Anaxes_Coruscant,
+			Arkania_Barlok,
+			Arkania_Carida,
+			Arkania_Corsin,
+			Balmorra_Carida,
+			Balmorra_Deko_Neimoidia,
+			Balmorra_Kuat,
+			Balmorra_Onderon,
+			Barlok_Ord_Mantell,
+			Bestine_Devaron,
+			Bestine_Kirima,
+			Bestine_YagDhul,
+			Bomis_Koori_Fondor,
+			Bomis_Koori_Tibrin,
+			Bomis_Koori_YagDhul,
+			Boonta_Klatooine,
+			Boonta_Ringneldia,
+			Boonta_Saleucami,
+			Bothawui_Christophsis,
+			Bothawui_Druckenwell,
+			Bothawui_Kamino,
+			Bothawui_Ruusan,
+			Bothawui_Toydaria,
+			Boz_Pity_Charros,
+			Boz_Pity_Saleucami,
+			Boz_Pity_Sleheyron,
+			Carida_Corsin,
+			Carida_Korda,
+			Cato_Neimoidia_Deko_Neimoidia,
+			Cato_Neimoidia_Humbarine,
+			Cato_Neimoidia_Nubia,
+			Cato_Neimoidia_Rendili,
+			Charros_Kashyyyk,
+			Charros_Ubrikkia,
+			Christophsis_Druckenwell,
+			Christophsis_Geonosis,
+			Christophsis_Rodia,
+			Christophsis_Ryndellia,
+			Ciutric_Dantooine,
+			Ciutric_Dathomir,
+			Ciutric_Serenno,
+			Corellia_Devaron,
+			Corellia_Nubia,
+			Corellia_Rendili,
+			Corsin_Korda,
+			Corsin_Mandalore,
+			Corsin_Ord_Mantell,
+			Coruscant_Foerost,
+			Coruscant_Kaikielius,
+			Dantooine_Muunilinst,
+			Dantooine_Mygeeto,
+			Dathomir_Mandalore,
+			Dathomir_Yavin,
+			Deko_Neimoidia_Mimban,
+			Deko_Neimoidia_Onderon,
+			Delacrix_Honoghr,
+			Delacrix_Klatooine,
+			Delacrix_Ringneldia,
+			Denon_Mimban,
+			Denon_Nubia,
+			Denon_Ronyards,
+			Devaron_Fondor,
+			Devaron_Ronyards,
+			Druckenwell_Kirima,
+			Druckenwell_Mimban,
+			Druckenwell_Ronyards,
+			Eriadu_Praesitlyn,
+			Eriadu_Ryndellia,
+			Eriadu_Sullust,
+			Eriadu_Tibrin,
+			Felucia_Florrum,
+			Felucia_Lola_Sayu,
+			Felucia_Raxus_Second,
+			Florrum_Raxus_Second,
+			Florrum_Thule,
+			Foerost_Kaikielius,
+			Fondor_YagDhul,
+			Gamorr_Hollastin,
+			Gamorr_Kamino,
+			Gamorr_Rothana,
+			Gamorr_Ylesia,
+			Geonosis_Hypori,
+			Geonosis_Rodia,
+			Hollastin_Nal_Hutta,
+			Hollastin_Nar_Hekka,
+			Honoghr_Sleheyron,
+			Honoghr_Ylesia,
+			Humbarine_Kuat,
+			Humbarine_Rendili,
+			Hypori_Kamino,
+			Hypori_Rothana,
+			Jabiim_Mon_Calamari,
+			Jabiim_Rhen_Var,
+			Jabiim_Ringneldia,
+			Jabiim_Saleucami,
+			Kaikielius_Rendili,
+			Kamino_Rodia,
+			Kashyyyk_Korda,
+			Kashyyyk_Ruusan,
+			Kashyyyk_Umbara,
+			Kirima_Malastare,
+			Kirima_Naboo,
+			Kirima_Ronyards,
+			Klatooine_Sleheyron,
+			Korda_Mandalore,
+			Korda_Onderon,
+			Lola_Sayu_Maridun,
+			Lola_Sayu_Rhen_Var,
+			Lola_Sayu_Thule,
+			Malastare_Naboo,
+			Malastare_Sullust,
+			Malastare_YagDhul,
+			Mandalore_Maridun,
+			Maridun_Yavin,
+			Mimban_Nubia,
+			Mimban_Ruusan,
+			Mimban_Umbara,
+			Mon_Calamari_Pammant,
+			Mon_Calamari_Raxus_Second,
+			Mon_Calamari_Rhen_Var,
+			Mulatan_Nar_Shaddaa,
+			Mulatan_Sleheyron,
+			Mulatan_Ubrikkia,
+			Mulatan_Ylesia,
+			Mustafar_Tibrin,
+			Mustafar_Utapau,
+			Muunilinst_Mygeeto,
+			Mygeeto_Phaeda,
+			Naboo_Ryndellia,
+			Nal_Hutta_Nar_Hekka,
+			Nal_Hutta_Toydaria,
+			Nar_Hekka_Nar_Shaddaa,
+			Nar_Hekka_Ylesia,
+			Nar_Shaddaa_Toydaria,
+			Onderon_Umbara,
+			Ord_Mantell_Phaeda,
+			Pammant_Ringneldia,
+			Praesitlyn_Utapau,
+			Ruusan_Ubrikkia,
+			Ruusan_Umbara,
+			Serenno_Thule,
+			Serenno_Yavin,
+			Sullust_Tibrin,
+			Thule_Yavin,
+			Toydaria_Ubrikkia,
+		</Trade_Routes>
+
+        <Home_Location> Rebel, Raxus </Home_Location>
+		 <Home_Location> Empire, Coruscant </Home_Location>
+
+        <Starting_Active_Player> Empire </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\CloneWarsFTGU\Story_Plots_Sandbox_FTGU_Rebel.xml</Rebel_Story_Name>
+        <Empire_Story_Name>Conquests\Custom\Story_Plots_Sandbox_Custom_Empire.xml</Empire_Story_Name>
+		<Underworld_Story_Name>Conquests\Custom\Story_Plots_Sandbox_Custom_Container.xml</Underworld_Story_Name>
+		<Story_Name>Hutt_Cartels, Conquests\Story_Plots_Generic_Hutt_Cartels.xml</Story_Name>
+
+		<AI_Player_Control> Rebel, None </AI_Player_Control>
+		<AI_Player_Control> Empire, SandboxHuman </AI_Player_Control>
+		<AI_Player_Control> Hutt_Cartels, None </AI_Player_Control>
+
+		<AI_Player_Control> Trade_Federation, None </AI_Player_Control>
+		<AI_Player_Control> Hostile, None </AI_Player_Control>
+		<AI_Player_Control> Banking_Clan, None</AI_Player_Control>
+		<AI_Player_Control> Commerce_Guild, None </AI_Player_Control>      
+		<AI_Player_Control> Techno_Union, None </AI_Player_Control>
+		<AI_Player_Control> Sector_Forces, None </AI_Player_Control>
+		<AI_Player_Control> Independent_Forces, None </AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Commerce_Guild, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Banking_Clan, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Techno_Union, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Sector_Forces, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, DefaultGalacticHints </Markup_Filename>
+
+		<Markup_Filename>Hostile, DefaultGalacticHints </Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Starting_Credits> Independent_Forces,  300000 </Starting_Credits>
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		<!-- Hutt_Cartels Starting Forces -->
+
+		<Starting_Credits> Hutt_Cartels,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Hutt_Cartels, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Hutt_Cartels, 5 </Max_Tech_Level>
+	</Campaign>
+
+	<Campaign Name="Sandbox_Custom_Small_Hutt_Cartels">
+
+		<Campaign_Set> Sandbox_Custom_Small </Campaign_Set>
+		<Sort_Order>409</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+
+        <Text_ID> TEXT_CAMPAIGN_HEADER_CUSTOM </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_DESCRIPTION_CUSTOM </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Aargonar,
+			Abregado_Rae,
+			Agamar,
+			Alderaan,
+			Alzoc,
+			Anaxes,
+			Arkania,
+			Balmorra,
+			Barlok,
+			Bestine,
+			Bomis_Koori,
+			Boonta,
+			Bothawui,
+			Boz_Pity,
+			Carida,
+			Cato_Neimoidia,
+			Charros,
+			Christophsis,
+			Ciutric,
+			Corellia,
+			Corsin,
+			Coruscant,
+			Dantooine,
+			Dathomir,
+			Deko_Neimoidia,
+			Delacrix,
+			Denon,
+			Devaron,
+			Druckenwell,
+			Eriadu,
+			Felucia,
+			Florrum,
+			Foerost,
+			Fondor,
+			Galaxy_Core_Art_Model,
+			Gamorr,
+			Geonosis,
+			Hollastin,
+			Honoghr,
+			Humbarine,
+			Hypori,
+			Jabiim,
+			Kaikielius,
+			Kamino,
+			Kashyyyk,
+			Kirima,
+			Klatooine,
+			Korda,
+			Kuat,
+			Lola_Sayu,
+			Malastare,
+			Mandalore,
+			Maridun,
+			Mimban,
+			Mon_Calamari,
+			Mulatan,
+			Mustafar,
+			Muunilinst,
+			Mygeeto,
+			Naboo,
+			Nal_Hutta,
+			Nar_Hekka,
+			Nar_Shaddaa,
+			Nubia,
+			Onderon,
+			Ord_Mantell,
+			Pammant,
+			Phaeda,
+			Praesitlyn,
+			Raxus_Second,
+			Rendili,
+			Rhen_Var,
+			Ringneldia,
+			Rodia,
+			Ronyards,
+			Rothana,
+			Ruusan,
+			Ryndellia,
+			Saleucami,
+			Serenno,
+			Sleheyron,
+			Sullust,
+			Thule,
+			Tibrin,
+			Toydaria,
+			Ubrikkia,
+			Umbara,
+			Utapau,
+			YagDhul,
+			Yavin,
+			Ylesia,
+		</Locations>
+		<Trade_Routes>
+			Aargonar_Charros,
+			Aargonar_Mandalore,
+			Aargonar_Maridun,
+			Aargonar_Rhen_Var,
+			Aargonar_Saleucami,
+			Abregado_Rae_Corellia,
+			Abregado_Rae_Fondor,
+			Abregado_Rae_Kaikielius,
+			Agamar_Ciutric,
+			Agamar_Corsin,
+			Agamar_Dantooine,
+			Agamar_Dathomir,
+			Agamar_Mygeeto,
+			Agamar_Phaeda,
+			Alderaan_Anaxes,
+			Alderaan_Carida,
+			Alderaan_Coruscant,
+			Alderaan_Kaikielius,
+			Alderaan_Kuat,
+			Alderaan_Rendili,
+			Alzoc_Geonosis,
+			Alzoc_Praesitlyn,
+			Alzoc_Ryndellia,
+			Alzoc_Utapau,
+			Anaxes_Arkania,
+			Anaxes_Barlok,
+			Anaxes_Coruscant,
+			Arkania_Barlok,
+			Arkania_Carida,
+			Arkania_Corsin,
+			Balmorra_Carida,
+			Balmorra_Deko_Neimoidia,
+			Balmorra_Kuat,
+			Balmorra_Onderon,
+			Barlok_Ord_Mantell,
+			Bestine_Devaron,
+			Bestine_Kirima,
+			Bestine_YagDhul,
+			Bomis_Koori_Fondor,
+			Bomis_Koori_Tibrin,
+			Bomis_Koori_YagDhul,
+			Boonta_Klatooine,
+			Boonta_Ringneldia,
+			Boonta_Saleucami,
+			Bothawui_Christophsis,
+			Bothawui_Druckenwell,
+			Bothawui_Kamino,
+			Bothawui_Ruusan,
+			Bothawui_Toydaria,
+			Boz_Pity_Charros,
+			Boz_Pity_Saleucami,
+			Boz_Pity_Sleheyron,
+			Carida_Corsin,
+			Carida_Korda,
+			Cato_Neimoidia_Deko_Neimoidia,
+			Cato_Neimoidia_Humbarine,
+			Cato_Neimoidia_Nubia,
+			Cato_Neimoidia_Rendili,
+			Charros_Kashyyyk,
+			Charros_Ubrikkia,
+			Christophsis_Druckenwell,
+			Christophsis_Geonosis,
+			Christophsis_Rodia,
+			Christophsis_Ryndellia,
+			Ciutric_Dantooine,
+			Ciutric_Dathomir,
+			Ciutric_Serenno,
+			Corellia_Devaron,
+			Corellia_Nubia,
+			Corellia_Rendili,
+			Corsin_Korda,
+			Corsin_Mandalore,
+			Corsin_Ord_Mantell,
+			Coruscant_Foerost,
+			Coruscant_Kaikielius,
+			Dantooine_Muunilinst,
+			Dantooine_Mygeeto,
+			Dathomir_Mandalore,
+			Dathomir_Yavin,
+			Deko_Neimoidia_Mimban,
+			Deko_Neimoidia_Onderon,
+			Delacrix_Honoghr,
+			Delacrix_Klatooine,
+			Delacrix_Ringneldia,
+			Denon_Mimban,
+			Denon_Nubia,
+			Denon_Ronyards,
+			Devaron_Fondor,
+			Devaron_Ronyards,
+			Druckenwell_Kirima,
+			Druckenwell_Mimban,
+			Druckenwell_Ronyards,
+			Eriadu_Praesitlyn,
+			Eriadu_Ryndellia,
+			Eriadu_Sullust,
+			Eriadu_Tibrin,
+			Felucia_Florrum,
+			Felucia_Lola_Sayu,
+			Felucia_Raxus_Second,
+			Florrum_Raxus_Second,
+			Florrum_Thule,
+			Foerost_Kaikielius,
+			Fondor_YagDhul,
+			Gamorr_Hollastin,
+			Gamorr_Kamino,
+			Gamorr_Rothana,
+			Gamorr_Ylesia,
+			Geonosis_Hypori,
+			Geonosis_Rodia,
+			Hollastin_Nal_Hutta,
+			Hollastin_Nar_Hekka,
+			Honoghr_Sleheyron,
+			Honoghr_Ylesia,
+			Humbarine_Kuat,
+			Humbarine_Rendili,
+			Hypori_Kamino,
+			Hypori_Rothana,
+			Jabiim_Mon_Calamari,
+			Jabiim_Rhen_Var,
+			Jabiim_Ringneldia,
+			Jabiim_Saleucami,
+			Kaikielius_Rendili,
+			Kamino_Rodia,
+			Kashyyyk_Korda,
+			Kashyyyk_Ruusan,
+			Kashyyyk_Umbara,
+			Kirima_Malastare,
+			Kirima_Naboo,
+			Kirima_Ronyards,
+			Klatooine_Sleheyron,
+			Korda_Mandalore,
+			Korda_Onderon,
+			Lola_Sayu_Maridun,
+			Lola_Sayu_Rhen_Var,
+			Lola_Sayu_Thule,
+			Malastare_Naboo,
+			Malastare_Sullust,
+			Malastare_YagDhul,
+			Mandalore_Maridun,
+			Maridun_Yavin,
+			Mimban_Nubia,
+			Mimban_Ruusan,
+			Mimban_Umbara,
+			Mon_Calamari_Pammant,
+			Mon_Calamari_Raxus_Second,
+			Mon_Calamari_Rhen_Var,
+			Mulatan_Nar_Shaddaa,
+			Mulatan_Sleheyron,
+			Mulatan_Ubrikkia,
+			Mulatan_Ylesia,
+			Mustafar_Tibrin,
+			Mustafar_Utapau,
+			Muunilinst_Mygeeto,
+			Mygeeto_Phaeda,
+			Naboo_Ryndellia,
+			Nal_Hutta_Nar_Hekka,
+			Nal_Hutta_Toydaria,
+			Nar_Hekka_Nar_Shaddaa,
+			Nar_Hekka_Ylesia,
+			Nar_Shaddaa_Toydaria,
+			Onderon_Umbara,
+			Ord_Mantell_Phaeda,
+			Pammant_Ringneldia,
+			Praesitlyn_Utapau,
+			Ruusan_Ubrikkia,
+			Ruusan_Umbara,
+			Serenno_Thule,
+			Serenno_Yavin,
+			Sullust_Tibrin,
+			Thule_Yavin,
+			Toydaria_Ubrikkia,
+		</Trade_Routes>
+
+        <Home_Location> Rebel, Raxus </Home_Location>
+		 <Home_Location> Empire, Coruscant </Home_Location>
+
+        <Starting_Active_Player> Hutt_Cartels </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\CloneWarsFTGU\Story_Plots_Sandbox_FTGU_Rebel.xml</Rebel_Story_Name>
+        <Empire_Story_Name>Conquests\Custom\Story_Plots_Sandbox_Custom_Empire.xml</Empire_Story_Name>
+		<Underworld_Story_Name>Conquests\Custom\Story_Plots_Sandbox_Custom_Container.xml</Underworld_Story_Name>
+		<Story_Name>Hutt_Cartels, Conquests\Story_Plots_Generic_Hutt_Cartels.xml</Story_Name>
+
+		<AI_Player_Control> Rebel, None </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+		<AI_Player_Control> Hutt_Cartels, SandboxHuman </AI_Player_Control>
+
+		<AI_Player_Control> Trade_Federation, None </AI_Player_Control>
+		<AI_Player_Control> Hostile, None </AI_Player_Control>
+		<AI_Player_Control> Banking_Clan, None</AI_Player_Control>
+		<AI_Player_Control> Commerce_Guild, None </AI_Player_Control>      
+		<AI_Player_Control> Techno_Union, None </AI_Player_Control>
+		<AI_Player_Control> Sector_Forces, None </AI_Player_Control>
+		<AI_Player_Control> Independent_Forces, None </AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Commerce_Guild, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Banking_Clan, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Techno_Union, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Sector_Forces, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, DefaultGalacticHints </Markup_Filename>
+
+		<Markup_Filename>Hostile, DefaultGalacticHints </Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Starting_Credits> Independent_Forces,  300000 </Starting_Credits>
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		<!-- Hutt_Cartels Starting Forces -->
+
+		<Starting_Credits> Hutt_Cartels,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Hutt_Cartels, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Hutt_Cartels, 5 </Max_Tech_Level>
+	</Campaign>
+ 
+ </Campaigns>

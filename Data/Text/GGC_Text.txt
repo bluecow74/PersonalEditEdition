@@ -1,0 +1,525 @@
+﻿MB_GGC_FOTG_SPACE_CORUSCANT_BATTLE,The final stage of the Clone Wars is underway! Concerned about the Jedi discovering his true identity Darth Sidous has instructed General Grievous to invade Coruscant and abduct the Chancellor. Utilizing secret hyperspace routes provided by Darth Sidious the CIS armada descended upon the Republic Capital surprising the garrison. Meanwhile General Grievous managed to successfully abduct Chancellor Palpatine. However, the plan goes awry when Anakin Skywalker kills Count Dooku and crash landes the Invisible Hand on Coruscant. Now General Grievous is left in a dire position above Coruscant...
+MT_GGC_FOTG_SPACE_CORUSCANT_BATTLE,Battle of Coruscant
+TEXT TEXT_STORY_OUTER_RIM_SIEGES_LORE_BODY_01,
+TEXT TEXT_STORY_OUTER_RIM_SIEGES_LORE_BODY_02,
+TEXT TEXT_STORY_OUTER_RIM_SIEGES_LORE_BODY_03,
+TEXT_CAMPAIGN_DESCRIPTION_19_BBY_ORS_EXPANDED,Outer Rim Sieges\n-----\nDescription: The final phase of the Clone Wars has begun. With the failings of the Confederacy of Independent Systems in previous campaigns, the Republic is now able to push out from their staging grounds to 7 CIS-controlled theatres in an attempt to win the war and bring peace to the galaxy.\n-----\nPlanets: 140\n-----\nPlayable Factions: \n\n- Confederacy (Medium)\n\n- Galactic Republic (Medium)\n-----\nNon-Playable Factions:\n\n- Banking Clan\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 5\n-----\nThis Galactic Conquest can advance upon completing the required story missions.\n-----\nApproximate CPU Load: Very High\n\n Created by the EaWX Team\n\n Updated by Skeletor
+TEXT_CAMPAIGN_DESCRIPTION_20_BBY_FOEROEST_EXPANDED,Foerost Campaign\n-----\nDescription: The world of Foerost was besieged by the Republic just days after the Battle of Geonosis. After two long years of suffering, Techno Union engineers have assembled a fleet of new battleships on the surface, ready to break the Republic's grip of the planet and strike terror throughout the Galactic Core.\n-----\nPlanets: 60\n-----\nPlayable Factions: \n\n- Confederacy (Medium)\n\n- Galactic Republic (Medium)\n-----\nNon-Playable Factions:\n\n- Banking Clan\n\n- Commerce Guild\n\n- Techno Union\n-----\nEra: 4\n-----\nThis Galactic Conquest can advance upon completing the required story missions.\n-----\nApproximate CPU Load: Medium\n\n Created by the EaWX Team\n\n Updated by Skeletor
+TEXT_CAMPAIGN_DESCRIPTION_21_BBY_DURGES_LANCE_EXPANDED,Operation: Durge's Lance\n-----\nDescription: General Grievous has assembled several Separatist fleets and launched a surprise attack on the Core Worlds, triggering a shocked Republic to respond to the military and refugee crisis that ensues. The heart of the Republic is vulnerable, and General Grievous intends to crush it. \n-----\nPlanets: 90\n-----\nPlayable Factions: \n\n- Confederacy (Easy)\n\n- Galactic Republic (Easy)\n-----\nNon-Playable Factions:\n\n- Banking Clan\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 3\n-----\nThis Galactic Conquest can advance upon completing the required story missions.\n-----\nApproximate CPU Load: Medium\n\n Created by the EaWX Team\n\n Updated by Skeletor
+TEXT_CAMPAIGN_DESCRIPTION_21_BBY_KNIGHT_HAMMER_EXPANDED,Operation: Knight Hammer\n-----\nDescription: A Jedi sect on Bpfassh has gone rogue causing chaos in the galactic south. The Jedi Order seeks to halt these marauders under the leadership of Master Yoda, while the Separatists and other forces seek to take advantage of the chaos for their own goals.\nPlanets: 90\n-----\nPlayable Factions: \n\n- Confederacy (Easy)\n\n- Galactic Republic (Medium)\n\n- Shadow Collective (as Hutt Cartels, Hard)\n-----\nEra: 3\n-----\nThis Galactic Conquest can advance upon completing the required story missions.\n-----\nApproximate CPU Load: Medium\n\n Created by the EaWX Team\n\n Updated by Skeletor
+TEXT_CAMPAIGN_DESCRIPTION_22_BBY_MALEVOLENCE_EXPANDED,Hunt for the Malevolence\n-----\nDescription: A new Confederate weapon is hunting down Republic task forces at the behest of Count Dooku. Several Jedi-led forces have been dispatched in turn to find and eliminate the threat. A task force led by Jedi General Plo Koon finally identifies the mysterious weapon in the Abregado System...\n-----\nPlanets: 75\n-----\nPlayable Factions: \n\n- Confederacy (Easy)\n\n- Galactic Republic (Medium)\n-----\nNon-Playable Factions:\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 2\n-----\nThis Galactic Conquest can advance upon completing the required story missions.\n-----\nApproximate CPU Load: Medium\n\n Created by the EaWX Team\n\n Updated by Skeletor
+TEXT_CAMPAIGN_DESCRIPTION_22_BBY_RIMWARD_EXPANDED,Rimward Campaign\n-----\nDescription: The Malevolence has been destroyed. In retaliation, General Grievous amasses the rest of his forces to strike at high-value Republic worlds up to the Galactic Rim.\n-----\nPlanets: 160\n-----\nPlayable Factions: \n\n- Confederacy (Hard)\n\n- Galactic Republic (Hard)\n\n- Hutt Cartels (Hard)\n-----\nNon-Playable Factions:\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 2\n-----\nThis Galactic Conquest can advance upon completing the required story missions.\n-----\nApproximate CPU Load: Very HIgh\n\n Created by the EaWX Team\n\n Updated by Skeletor
+TEXT_CAMPAIGN_DIVIDER_DESCRIPTION_HISTORICAL,Historical maps focus on specific campaign, maneuvers or local wars, generally on a smaller map. Many will include special missions, events, heroes, and even roster changes to reflect the story and setting of the campaign. Broader systems from the progressive maps may be removed.
+TEXT_CAMPAIGN_DIVIDER_DESCRIPTION_INFINITY,Infinities maps represent situations that do not reflect Star Wars lore, such as challenge setups where most of the galaxy is unaligned, or alternate timelines.
+TEXT_CAMPAIGN_DIVIDER_DESCRIPTION_REGIONAL,Regional maps are smaller versions of the progressive maps, focusing on a limited part of the Galaxy. Fewer factions may be present.
+TEXT_CAMPAIGN_DIVIDER_INFINITIES,=== INFINITIES ==========================
+TEXT_CAMPAIGN_DIVIDER_LEGACY_MULTI_ERAS,=== LEGACY ERA-PROGRESSIVE ==========================
+TEXT_CAMPAIGN_DIVIDER_LEGACY_PROGRESSIVE,Era progressive maps represent most of the area, time period, and factions of the mod. As time passes, events, unit locks and unlocks, and researches will trigger that reflect the broad history of the Star Wars Galaxy.\n\n---\n\nThese maps are restored versions of older maps made to work with the current verion of the game.
+TEXT_CAMPAIGN_DIVIDER_MULTI_ERAS,=== ERA-PROGRESSIVE ==========================
+TEXT_CAMPAIGN_DIVIDER_SINGLE_ERAS,=== HISTORICAL CONFLICTS ==========================
+TEXT_CAMPAIGN_DIVIDER_SINGLE_REGIONS,=== REGIONAL CONFLICTS ==========================
+TEXT_CAMPAIGN_HEADER_19_BBY_ORS_EXPANDED,19 BBY:       Outer Rim Sieges (Expanded)
+TEXT_CAMPAIGN_HEADER_20_BBY_FOEROST_EXPANDED,20 BBY:       Foerost Campaign (Expanded)
+TEXT_CAMPAIGN_HEADER_21_BBY_DURGES_LANCE_EXPANDED,21 BBY:       Operation: Durge's Lance (Expanded)
+TEXT_CAMPAIGN_HEADER_21_BBY_KNIGHT_HAMMER_EXPANDED,21 BBY:       Operation: Knight Hammer (Expanded)
+TEXT_CAMPAIGN_HEADER_22_BBY_MALEVOLENCE_EXPANDED,22 BBY:       Hunt for the Malevolence (Expanded)
+TEXT_CAMPAIGN_HEADER_22_BBY_RIMWARD_EXPANDED,22 BBY:       Rimward Campaign (Expanded)
+TEXT_CAMPAIGN_HEADER_CUSTOM,Infinities:       Custom Galactic Conquest
+TEXT_CAMPAIGN_HEADER_FTGU,Infinities:       From the Ground Up
+TEXT_CAMPAIGN_SINGLE_CWCOLOSSAL,22 - 19 BBY:       The Clone Wars - Colossal
+TEXT_CAMPAIGN_SINGLE_CWGARGANTUAN,22 - 19 BBY:       The Clone Wars - Gargantuan
+TEXT_CAMPAIGN_SINGLE_CWGIGANTIC,22 - 19 BBY:       The Clone Wars - Gigantic
+TEXT_CAMPAIGN_SINGLE_CWHUGE,22 - 19 BBY:       The Clone Wars - Huge
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_CWCOLOSSAL,Planets: 284\n-----\nPlayable Factions: \n\n- Confederacy (Medium)\n\n- Galactic Republic (Medium)\n\n- Hutt Cartels (Hard)\n-----\nNon-Playable Factions:\n\n- Republic Sector Forces\n\n- Banking Clan\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 2-5 (Configurable)\n-----\nChanging the starting era between 2, 3, 4 and 5 will change the starting forces and positions to match the different years of the war.\n-----\nApproximate CPU Load: Intense\n\n Created by Skeletor
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_CWGARGANTUAN,Planets: 257\n-----\nPlayable Factions: \n\n- Confederacy (Medium)\n\n- Galactic Republic (Medium)\n\n- Hutt Cartels (Hard)\n-----\nNon-Playable Factions:\n\n- Republic Sector Forces\n\n- Banking Clan\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 2-5 (Configurable)\n-----\nChanging the starting era between 2, 3, 4 and 5 will change the starting forces and positions to match the different years of the war.\n-----\nApproximate CPU Load: Extreme\n\n Created by Skeletor
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_CWGIGANTIC,Planets: 224\n-----\nPlayable Factions: \n\n- Confederacy (Medium)\n\n- Galactic Republic (Medium)\n\n- Hutt Cartels (Hard)\n-----\nNon-Playable Factions:\n\n- Republic Sector Forces\n\n- Banking Clan\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 2-5 (Configurable)\n-----\nChanging the starting era between 2, 3, 4 and 5 will change the starting forces and positions to match the different years of the war.\n-----\nApproximate CPU Load: Very High\n\n Created by Skeletor
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_CWHUGE,Planets: 192\n-----\nPlayable Factions: \n\n- Confederacy (Medium)\n\n- Galactic Republic (Medium)\n\n- Hutt Cartels (Hard)\n-----\nNon-Playable Factions:\n\n- Republic Sector Forces\n\n- Banking Clan\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 2-5 (Configurable)\n-----\nChanging the starting era between 2, 3, 4 and 5 will change the starting forces and positions to match the different years of the war.\n-----\nApproximate CPU Load: Very High\n\n Created by Skeletor
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_CWLARGE,Planets: 115\n-----\nPlayable Factions: \n\n- Confederacy (Medium)\n\n- Galactic Republic (Medium)\n\n- Hutt Cartels (Hard)\n-----\nNon-Playable Factions:\n\n- Republic Sector Forces\n\n- Banking Clan\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 2-5 (Configurable)\n-----\nChanging the starting era between 2, 3, 4 and 5 will change the starting forces and positions to match the different years of the war.\n-----\nApproximate CPU Load: High - Very High
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_CWMEDIUM,Planets: 95\n-----\nPlayable Factions: \n\n- Confederacy (Medium)\n\n- Galactic Republic (Medium)\n\n- Hutt Cartels (Hard)\n-----\nNon-Playable Factions:\n\n- Republic Sector Forces\n\n- Banking Clan\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 2-5 (Configurable)\n-----\nChanging the starting era between 2, 3, 4 and 5 will change the starting forces and positions to match the different years of the war.\n-----\nApproximate CPU Load: High
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_CWSMALL,Planets: 80\n-----\nPlayable Factions: \n\n- Confederacy (Medium)\n\n- Galactic Republic (Medium)\n\n- Hutt Cartels (Hard)\n-----\nNon-Playable Factions:\n\n- Republic Sector Forces\n\n- Banking Clan\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 2-5 (Configurable)\n-----\nChanging the starting era between 2, 3, 4 and 5 will change the starting forces and positions to match the different years of the war.\n-----\nApproximate CPU Load: Medium - High
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_EGCOLOSSAL,Planets: 300\n-----\nPlayable Factions: \n\n- Confederacy (Medium)\n\n- Galactic Republic (Medium)\n\n- Hutt Cartels (Hard)\n-----\nNon-Playable Factions:\n\n- Republic Sector Forces\n\n- Banking Clan\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 2-5 (Configurable)\n-----\nChanging the starting era between 2, 3, 4 and 5 will change the starting forces and positions to match the different years of the war.\n-----\nApproximate CPU Load: Intense\n\n Created by Skeletor
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_EGCOLOSSAL_CONQUEST,Planets: 330\n-----\nPlayable Factions: \n\n- Confederacy (Medium)\n\n- Galactic Republic (Medium)\n\n- Hutt Cartels (Hard)\n-----\nNon-Playable Factions:\n\n- Republic Sector Forces\n\n- Banking Clan\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 2-5 (Configurable)\n-----\nChanging the starting era between 2, 3, 4 and 5 will change the starting forces and positions to match the different years of the war.\n-----\nApproximate CPU Load: Intense\n\n Created by Skeletor
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_EGGARGANTUAN,Planets: 270\n-----\nPlayable Factions: \n\n- Confederacy (Medium)\n\n- Galactic Republic (Medium)\n\n- Hutt Cartels (Hard)\n-----\nNon-Playable Factions:\n\n- Republic Sector Forces\n\n- Banking Clan\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 2-5 (Configurable)\n-----\nChanging the starting era between 2, 3, 4 and 5 will change the starting forces and positions to match the different years of the war.\n-----\nApproximate CPU Load: Extreme\n\n Created by Skeletor
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_EGGIGANTIC,Planets: 240\n-----\nPlayable Factions: \n\n- Confederacy (Medium)\n\n- Galactic Republic (Medium)\n\n- Hutt Cartels (Hard)\n-----\nNon-Playable Factions:\n\n- Republic Sector Forces\n\n- Banking Clan\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 2-5 (Configurable)\n-----\nChanging the starting era between 2, 3, 4 and 5 will change the starting forces and positions to match the different years of the war.\n-----\nApproximate CPU Load: Very High\n\n Created by Skeletor
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_EGHUGE,Planets: 200\n-----\nPlayable Factions: \n\n- Confederacy (Medium)\n\n- Galactic Republic (Medium)\n\n- Hutt Cartels (Hard)\n-----\nNon-Playable Factions:\n\n- Republic Sector Forces\n\n- Banking Clan\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 2-5 (Configurable)\n-----\nChanging the starting era between 2, 3, 4 and 5 will change the starting forces and positions to match the different years of the war.\n-----\nApproximate CPU Load: Very High\n\n Created by Skeletor
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_EGLARGE,Planets: 125\n-----\nPlayable Factions: \n\n- Confederacy (Medium)\n\n- Galactic Republic (Medium)\n\n- Hutt Cartels (Hard)\n-----\nNon-Playable Factions:\n\n- Republic Sector Forces\n\n- Banking Clan\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 2-5 (Configurable)\n-----\nChanging the starting era between 2, 3, 4 and 5 will change the starting forces and positions to match the different years of the war.\n-----\nApproximate CPU Load: High - Very High
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_EGMEDIUM,Planets: 105\n-----\nPlayable Factions: \n\n- Confederacy (Medium)\n\n- Galactic Republic (Medium)\n\n- Hutt Cartels (Hard)\n-----\nNon-Playable Factions:\n\n- Republic Sector Forces\n\n- Banking Clan\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 2-5 (Configurable)\n-----\nChanging the starting era between 2, 3, 4 and 5 will change the starting forces and positions to match the different years of the war.\n-----\nApproximate CPU Load: High
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_EGSMALL,Planets: 90\n-----\nPlayable Factions: \n\n- Confederacy (Medium)\n\n- Galactic Republic (Medium)\n\n- Hutt Cartels (Hard)\n-----\nNon-Playable Factions:\n\n- Republic Sector Forces\n\n- Banking Clan\n\n- Commerce Guild\n\n- Techno Union\n\n- Trade Federation\n-----\nEra: 2-5 (Configurable)\n-----\nChanging the starting era between 2, 3, 4 and 5 will change the starting forces and positions to match the different years of the war.\n-----\nApproximate CPU Load: Medium - High
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_FTGU_CW_COLOSSAL,Planets: 274 \n-----\nPlayable Factions: \n\n- Confederacy (Era 1-5: Hard)\n\n- Galactic Republic (Era 1-5: Hard)\n\n- Hutt Cartels (Era 1-5: Hard)\n-----\n Era: 1-5 (Configurable)\n-----\nKEY INFORMATION:\n\n- GC does NOT progress eras\n-----\nLARGER SHIP CHANCE:\n\n- Recruit: 1 - 2\n\n- Captain: 1 - 4\n\n- Admiral: 1 - 8\n-----\nApproximate CPU Load: Intense\n\n Created by Skeletor
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_FTGU_CW_GARGANTUAN,Planets: 268 \n-----\nPlayable Factions: \n\n- Confederacy (Era 1-5: Hard)\n\n- Galactic Republic (Era 1-5: Hard)\n\n- Hutt Cartels (Era 1-5: Hard)\n-----\n Era: 1-5 (Configurable)\n-----\nKEY INFORMATION:\n\n- GC does NOT progress eras\n-----\nLARGER SHIP CHANCE:\n\n- Recruit: 1 - 2\n\n- Captain: 1 - 4\n\n- Admiral: 1 - 8\n-----\nApproximate CPU Load: Extreme\n\n Created by Skeletor
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_FTGU_CW_GIGANTIC,Planets: 240 \n-----\nPlayable Factions: \n\n- Confederacy (Era 1-5: Hard)\n\n- Galactic Republic (Era 1-5: Hard)\n\n- Hutt Cartels (Era 1-5: Hard)\n-----\n Era: 1-5 (Configurable)\n-----\nKEY INFORMATION:\n\n- GC does NOT progress eras\n-----\nLARGER SHIP CHANCE:\n\n- Recruit: 1 - 2\n\n- Captain: 1 - 4\n\n- Admiral: 1 - 8\n-----\nApproximate CPU Load: Very High\n\n Created by Skeletor
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_FTGU_CW_HUGE,Planets: 200 \n-----\nPlayable Factions: \n\n- Confederacy (Era 1-5: Hard)\n\n- Galactic Republic (Era 1-5: Hard)\n\n- Hutt Cartels (Era 1-5: Hard)\n-----\n Era: 1-5 (Configurable)\n-----\nKEY INFORMATION:\n\n- GC does NOT progress eras\n-----\nLARGER SHIP CHANCE:\n\n- Recruit: 1 - 2\n\n- Captain: 1 - 4\n\n- Admiral: 1 - 8\n-----\nApproximate CPU Load: Very High\n\n Created by Skeletor
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_GG,Operation: Grievous' Gambit\n-----\nDescription: The Battle of Coruscant is lost! With Count Dooku dead General Grievous has fled into the far reaches of the Outer Rim. However, he has prepared a final offensive to claw victory from the jaws of defeat. \n-----\nPlanets: 100\n-----\nPlayable Factions: \n\n- Confederacy (Hard)\n\n- Galactic Republic (Normal)\n-----\nNon-Playable Factions:\n\n- Trade Federation\n- Commerce Guild\n-----\nEra: 4\n-----\nApproximate CPU Load: Medium
+TEXT_CAMPAIGN_SINGLE_EGCOLOSSAL,22 - 19 BBY:       Known Galaxy - Colossal
+TEXT_CAMPAIGN_SINGLE_EGCOLOSSAL_CONQUEST,22 - 19 BBY:       Colossal Conquest
+TEXT_CAMPAIGN_SINGLE_EGGARGANTUAN,22 - 19 BBY:       Known Galaxy - Gargantuan
+TEXT_CAMPAIGN_SINGLE_EGGIGANTIC,22 - 19 BBY:       Known Galaxy - Gigantic
+TEXT_CAMPAIGN_SINGLE_EGHUGE,22 - 19 BBY:       Known Galaxy - Huge
+TEXT_CAMPAIGN_SINGLE_FTGU,Infinities:       From the Ground Up
+TEXT_CAMPAIGN_SINGLE_FTGU_COLOSSAL,Infinities:       From the Ground Up - Colossal
+TEXT_CAMPAIGN_SINGLE_FTGU_GARGANTUAN,Infinities:       From the Ground Up - Gargantuan
+TEXT_CAMPAIGN_SINGLE_FTGU_GIGANTIC,Infinities:       From the Ground Up - Giganitc
+TEXT_CAMPAIGN_SINGLE_FTGU_HUGE,Infinities:       From the Ground Up - Huge
+TEXT_CAMPAIGN_SINGLE_GG,19 BBY:       Grievous' Gambit
+TEXT_COMPANY_BDY_HQ,Byblos Drive Yards
+TEXT_COMPANY_BDY_HQ_DESCRIPTION,Imperial Boarding Shuttle, Republic Boarding Shuttle, YT1300, GR75_Fireship, Snowspeeder, V-Wing, SP9, AV7, Flash Speeder, SX20 Airskimmer, SX20 Company, X10 Groundcruiser, JX40, Strikebreaker, K222 Interceptor, EotH Scout Bike, Kirov, Flame Tank, AirStraeker, Plasma Mortar, S1 Firehawke, Lancet Air Artillery, Teradoc Skiff Group, Raptor Scout Trooper, Gallofree HTT Transport, Heavy Tracker, Freerunner and T2M Tank.
+TEXT_COMPANY_HOUSE_OF_SERENNO,The Noble Houses of Serenno
+TEXT_COMPANY_HOUSE_OF_SERENNO_DESCRIPTION,The six royal house of Serenno will proudly support the Count Dooku's asperations. Their finnancial backing is crutial to the CIS war effort.
+TEXT_COMPANY_KESSEL_MINES,Kessel Spice Mines
+TEXT_COMPANY_KESSEL_MINES_DESCRIPTION,The spice mines of Kessel, known as the Dark to veteran miners, were a series of labor camps on the planet Kessel, where slaves from various species, Wookiees among them, were forced to mine a medicinal spice mineral into a dangerous drug. Spice mining was extremely dangerous, and slaves were thus used as expendable labor.
+TEXT_COMPANY_RHYDONIUM_MINES,Rhydonium Mines
+TEXT_COMPANY_RHYDONIUM_MINES_DESCRIPTION,Rhydonium, a scarce and volatile fuel source found on Abafar. The planet was noted on Galactic Republic and Imperial records as housing the hishest concentrations of Rhydonium in the galaxy.
+TEXT_ENCYCLOPEDIA_CLASS_ARCHDUKE,Class: Archduke
+TEXT_FACTION_BANKING_CLAN_CONQUEST,The Banking Clan has conquered %s!
+TEXT_FACTION_CIS_CONQUEST,The Confederacy has conquered %s!
+TEXT_FACTION_COMMERCE_GUILD_CONQUEST,The Commerce Guild has conquered %s!
+TEXT_FACTION_TECHNO_UNION_CONQUEST,The Techno Union has conquered %s!
+TEXT_FACTION_TRADEFED_CONQUEST,The Trade Federation has conquered %s!
+TEXT_FACTION_WARLORDS_CONQUEST,The Independent Forces have conquered %s!
+TEXT_HERO_POGGLE_THE_LESSER,Poggle the Lesser
+TEXT_HERO_SAN_HILL,San Hill
+TEXT_MISSION_GRIEVOUS_GAMBIT_INTRO_01,Coruscant system...
+TEXT_MISSION_GRIEVOUS_GAMBIT_INTRO_02,...the end of the war is near.
+TEXT_MISSION_GRIEVOUS_GAMBIT_OBJECTIVE_CIS_01,Survive againt Republic forces.
+TEXT_MISSION_GRIEVOUS_GAMBIT_OBJECTIVE_CIS_02,Destroy the remaining garrision!
+TEXT_MISSION_GRIEVOUS_GAMBIT_SPEECH_01,
+TEXT_MISSION_GRIEVOUS_GAMBIT_SPEECH_02,Separatist forces are engaged in intense combat above the Republic capital.
+TEXT_MISSION_GRIEVOUS_GAMBIT_SPEECH_03,
+TEXT_MISSION_GRIEVOUS_GAMBIT_SPEECH_04,CIS commanders have deployed interdiction mines to delay further Republic reinforcemnts.
+TEXT_MISSION_GRIEVOUS_GAMBIT_SPEECH_05,
+TEXT_MISSION_GRIEVOUS_GAMBIT_SPEECH_06,However, with the Chancellor escaping their grasp the CIS position has become increasingly perilous.
+TEXT_MISSION_GRIEVOUS_GAMBIT_SPEECH_07,General Grievous knows that his bargaining position is untenable.
+TEXT_MISSION_GRIEVOUS_GAMBIT_SPEECH_08,
+TEXT_MISSION_GRIEVOUS_GAMBIT_SPEECH_09,He will have to retreat with his remaining forces...
+TEXT_MISSION_GRIEVOUS_GAMBIT_SPEECH_10,General Grievous: Commander, the tactical situation has not developed to our advantage. You'd best prove your worth to me on the battlefield.
+TEXT_MISSION_GRIEVOUS_GAMBIT_SPEECH_11,
+TEXT_MISSION_GRIEVOUS_GAMBIT_SPEECH_12,OOM-107: Sir, Republic reinforcements! They appear to have a new series of capital ships.
+TEXT_MISSION_GRIEVOUS_GAMBIT_SPEECH_13_ALT_01,OOM-107: Sir the planetary shield is down.
+TEXT_MISSION_GRIEVOUS_GAMBIT_SPEECH_13_ALT_02,OOM-107: Sir the planetary shield has been disabled.General Grievous: Interesting. Commander, rendezvous with our remaining forces and retreat into hyperspace.
+TEXT_MISSION_GRIEVOUS_GAMBIT_SPEECH_14_ALT_01,General Grievous: Excellent, all remaining forces retreat!
+TEXT_MISSION_GRIEVOUS_GAMBIT_SPEECH_14_ALT_02,General Grievous: Very good. Commander, rendezvous with our remaining forces and retreat into hyperspace.
+TEXT_OBJECT_STAR_SYSTEM_ABAFAR,Abafar
+TEXT_OBJECT_STAR_SYSTEM_AGUARL,Aguarl III
+TEXT_OBJECT_STAR_SYSTEM_ALASSA_MAJOR,Alassa Major
+TEXT_OBJECT_STAR_SYSTEM_ALEEN,Aleen
+TEXT_OBJECT_STAR_SYSTEM_ANOAT,Anoat
+TEXT_OBJECT_STAR_SYSTEM_ANTAR,Antar IV
+TEXT_OBJECT_STAR_SYSTEM_BALDEMNIC,Bal'demnic
+TEXT_OBJECT_STAR_SYSTEM_BALNAB,Balnab
+TEXT_OBJECT_STAR_SYSTEM_BARDOTTA,Bardotta
+TEXT_OBJECT_STAR_SYSTEM_BAROS,Baros
+TEXT_OBJECT_STAR_SYSTEM_BELASCO,Belasco
+TEXT_OBJECT_STAR_SYSTEM_BIRGIS,Birgis
+TEXT_OBJECT_STAR_SYSTEM_BOSPH,Bosph
+TEXT_OBJECT_STAR_SYSTEM_BRACCA,Bracca
+TEXT_OBJECT_STAR_SYSTEM_CARLAC,Carlac
+TEXT_OBJECT_STAR_SYSTEM_CASFIELD,Casfield VI
+TEXT_OBJECT_STAR_SYSTEM_COPHRIGIN,Cophrigin V
+TEXT_OBJECT_STAR_SYSTEM_DAALANG,Daalang
+TEXT_OBJECT_STAR_SYSTEM_DAHRTAG,Dahrtag
+TEXT_OBJECT_STAR_SYSTEM_DALRON,Dalron V
+TEXT_OBJECT_STAR_SYSTEM_DARO,Daro
+TEXT_OBJECT_STAR_SYSTEM_DOAN,Doan
+TEXT_OBJECT_STAR_SYSTEM_DRESSEL,Dressel
+TEXT_OBJECT_STAR_SYSTEM_EBAQ,Ebaq IX
+TEXT_OBJECT_STAR_SYSTEM_EBRA,Erba
+TEXT_OBJECT_STAR_SYSTEM_EIATTU,Eiattu VI
+TEXT_OBJECT_STAR_SYSTEM_EXCARGA,Excarga
+TEXT_OBJECT_STAR_SYSTEM_FEST,Fest
+TEXT_OBJECT_STAR_SYSTEM_GERRENTHUM,Gerrenthum
+TEXT_OBJECT_STAR_SYSTEM_GRAVAN,Gravan VII
+TEXT_OBJECT_STAR_SYSTEM_GWORI,Gwori
+TEXT_OBJECT_STAR_SYSTEM_HALM,Halm
+TEXT_OBJECT_STAR_SYSTEM_KADAVO,Kadavo
+TEXT_OBJECT_STAR_SYSTEM_KALLER,Kaller
+TEXT_OBJECT_STAR_SYSTEM_KARKARIS,Karkaris
+TEXT_OBJECT_STAR_SYSTEM_KELADA,Kelada
+TEXT_OBJECT_STAR_SYSTEM_KIROS,Kiros
+TEXT_OBJECT_STAR_SYSTEM_KIRTARKIN,Kirtarkin
+TEXT_OBJECT_STAR_SYSTEM_KORDA,Korda VI
+TEXT_OBJECT_STAR_SYSTEM_LEVIAN,Levian II
+TEXT_OBJECT_STAR_SYSTEM_LLON_NEBULA,Llon Nebula
+TEXT_OBJECT_STAR_SYSTEM_LOTHO_MINOR,Lotho Minor
+TEXT_OBJECT_STAR_SYSTEM_MANNOVA,Mannova
+TEXT_OBJECT_STAR_SYSTEM_MIRIAL,Mirial
+TEXT_OBJECT_STAR_SYSTEM_OBA_DIAH,Oba Diah
+TEXT_OBJECT_STAR_SYSTEM_OPLOVIS,Oplovis
+TEXT_OBJECT_STAR_SYSTEM_ORD_ANTALAHA,Ord Anthalaha
+TEXT_OBJECT_STAR_SYSTEM_ORD_SIGATT,Ord Sigatt
+TEXT_OBJECT_STAR_SYSTEM_ORTO_PLUTONIA,Orto Plutonia
+TEXT_OBJECT_STAR_SYSTEM_PAX,Pax
+TEXT_OBJECT_STAR_SYSTEM_QRETU,Qretu V
+TEXT_OBJECT_STAR_SYSTEM_RANNON,Rannon
+TEXT_OBJECT_STAR_SYSTEM_RASTEROUS,Rasterous
+TEXT_OBJECT_STAR_SYSTEM_RAYDONIA,Raydonia
+TEXT_OBJECT_STAR_SYSTEM_ROON,Roon
+TEXT_OBJECT_STAR_SYSTEM_RUURIA,Ruuria
+TEXT_OBJECT_STAR_SYSTEM_SEPAN,Sepan VIII
+TEXT_OBJECT_STAR_SYSTEM_SHAYLIN,Shaylin XVIII
+TEXT_OBJECT_STAR_SYSTEM_SOULLEX,Soullex
+TEXT_OBJECT_STAR_SYSTEM_SPIRADOR,Spirador
+TEXT_OBJECT_STAR_SYSTEM_STOBAR,Stobar
+TEXT_OBJECT_STAR_SYSTEM_SURRON,Surron
+TEXT_OBJECT_STAR_SYSTEM_TANDANKIN,Tandankin
+TEXT_OBJECT_STAR_SYSTEM_TRANTOR,Trantor
+TEXT_OBJECT_STAR_SYSTEM_TRASSE,Trasse
+TEXT_OBJECT_STAR_SYSTEM_TROSKA,Troska
+TEXT_OBJECT_STAR_SYSTEM_VROSYNRI,Vrosynri VIII
+TEXT_OBJECT_STAR_SYSTEM_YAVIN,Yavin IV
+TEXT_OBJECT_STAR_SYSTEM_ZYGERRIA,Zygerria
+TEXT_PLANET_INFO_ABAFAR_FAUNA,Unknown
+TEXT_PLANET_INFO_ABAFAR_HISTORY,Abafar was a remote desert world within the Outer Rim Territories of the galaxy. The planet was scarcely populated and mostly covered in a featureless expanse known as The Void. Abafar was also one of the fe olanet's in the galaxy known to have significant amount of Rhydonium.
+TEXT_PLANET_INFO_ABAFAR_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_ABAFAR_POPULATION,Human, Sullustan\n10 million
+TEXT_PLANET_INFO_ABAFAR_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_AKURIA_HISTORY,A frigid Outer Rim world located in the Oplovis sector which housed New Republic bases specialized in the training of arctic ground forces. These soldiers would prove to be valuable assets during the Battle of Hoth. After 4 ABY, the planet would come under attack by Gaen Drommel, warlord of the Oplovis Protectorate.
+TEXT_PLANET_INFO_ALASSA_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_ALASSA_MAJOR_FAUNA,Unknown
+TEXT_PLANET_INFO_ALASSA_MAJOR_HISTORY,A wealthy resort world located along the Enarc Run. The planet was a prized vacation planet which was particularly favored by the senators and nobility of Naboo.
+TEXT_PLANET_INFO_ALASSA_MAJOR_POPULATION,Human\n350 million
+TEXT_PLANET_INFO_ALASSA_MAJOR_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_ALEEN_FAUNA,Unknown
+TEXT_PLANET_INFO_ALEEN_HISTORY,The homeworld of both the Aleena and the Kindalo species, Aleen was a world of two distinct environs that had a shared, yet separate history. Millennia ago the Infinite Empire controlled the planet at its height, and the Aleena and the Kindalo served as client species to the reigning Rakata. During the Clone Wars, the planet began suffering from groundquakes caused by the Kindalo. In response the Republic sent peacekeeping forces to prevent a planetary war.
+TEXT_PLANET_INFO_ALEEN_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_ALEEN_POPULATION,Aleena | Kindalo\n20 million
+TEXT_PLANET_INFO_ALEEN_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_ANOAT_FAUNA,Unknown
+TEXT_PLANET_INFO_ANOAT_FOTR_FAUNA,Unknown
+TEXT_PLANET_INFO_ANOAT_FOTR_HISTORY,A proserous megaworld located near the Southern edge of the galaxy, Anoat would go on to become a Republic stronghold late into the Clone Wars. During the early years of the Empire, Anoat was a prime example of the human high culture that COMPNOR envisioned within the Empire.
+TEXT_PLANET_INFO_ANOAT_FOTR_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_ANOAT_FOTR_POPULATION,Human\n1.1 billion
+TEXT_PLANET_INFO_ANOAT_FOTR_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_ANOAT_HISTORY,Now a desolate wasteland with pockets of native survivors, and low-lying regions filled with deathly gas clouds, Anoat used to be a thriving ecuminopolis but it now a ruined world. During the early years of the Empire Anoat was a prime example of the human high culture that COMPNOR envisioned within the Empire. The planet's cities were clean, busiling and filled with all the wonders the Empire could provide. However, several years prior to the battle of Endor, the then Governor of the Anoat Sector was ordered to initiate a Base Delta Zero upon the planet for harboring assets of the Rebellion. After annihilating the surface of the planet with turbolaser fire, and scoured the atmosphere with toxic gasses, Governor Ubrik Adelhard would be promoted to Moff. Thus ending Anoat's regional influence and paving the way for Gerrenthum's prosperity.
+TEXT_PLANET_INFO_ANOAT_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_ANOAT_POPULATION,Human\n<1 million
+TEXT_PLANET_INFO_ANOAT_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_ATTAHOX_HISTORY,A junk world located in the Expansion Region of the Mid Rim. Attahox has a reputation among smugglers as being an exceptional place to lay low. As well as hosting many criminal syndicates who vied for power on the planet.
+TEXT_PLANET_INFO_BALDEMNIC_FAUNA,Unknown
+TEXT_PLANET_INFO_BALDEMNIC_HISTORY,Bal'demnic is an ocean planet adorned with rocky tropical islands in the Auril sector, located within the Outer Rim Territories. The planet was noted for housing vast stores of cortosis ore which were vital to Darth Tenebrous' plans. However, Darth Tenebrous would be betrayed by his apprentice, Darth Plagueis, who crushed him with many boulders during an exposition to determine a sizable vein of cortosis ore. By 20 BBY the planet was highly contested by the both the CIS and the Republic who sought to utlize the lazer resistant crotosis metal found on the planet to aid the war effort; although the native Kon'me mangaed to expell both factions from their home world.
+TEXT_PLANET_INFO_BALDEMNIC_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_BALDEMNIC_POPULATION,Kon'me\n200 million
+TEXT_PLANET_INFO_BALDEMNIC_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_BALNAB_FAUNA,Unknown
+TEXT_PLANET_INFO_BALNAB_HISTORY,A backwater world loacated within the Mid Rim. During the Clone Wars, it was in its early stages of organic development and was home to stranded members of a species of tentacle-faced beings who took the name Balnab, hence the planet's name.
+TEXT_PLANET_INFO_BALNAB_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_BALNAB_POPULATION,Balnab\n100 million
+TEXT_PLANET_INFO_BALNAB_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_BARDOTTA_FAUNA,Unknown
+TEXT_PLANET_INFO_BARDOTTA_HISTORY,Bardoota is an arid, mountainous planet straddle along the border between the Colonies and the Core Worlds. The planet was of little importance to either the CIS or the Galactic Republic during the Clone Wars, however, Mace Windu and Jar Jar Binks managed to foil Mother Talzen's plan to return to the physical realm.
+TEXT_PLANET_INFO_BARDOTTA_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_BARDOTTA_POPULATION,Bardottan\n35 million
+TEXT_PLANET_INFO_BARDOTTA_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_BAROS_FAUNA,Unknown
+TEXT_PLANET_INFO_BAROS_HISTORY,Baros was a planet located in the Dominus sector. An Outer Rim world on the farthest reaches of the Slice, the planet was home to the Brubb species. It had a high gravity, was frequented by windstorms, and possessed infertile growing soil. In 9 ABY, it was one of the New Republic worlds taken over by Grand Admiral Thrawn during his attempt to win the Galactic Civil War for the Empire.
+TEXT_PLANET_INFO_BAROS_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_BAROS_POPULATION,Brubb\n45 million
+TEXT_PLANET_INFO_BAROS_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_BELASCO_FAUNA,Unknown
+TEXT_PLANET_INFO_BELASCO_HISTORY,Belasco is a lush forested planet located in the Expansion Region, well known for its rivalries with nearby planets in the previous centuries. Though this warlike nature would be tamed by the Empire and a recurring plague that threatened the planet.
+TEXT_PLANET_INFO_BELASCO_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_BELASCO_POPULATION,Mluki | Human | Ithorian\n14 Billion
+TEXT_PLANET_INFO_BELASCO_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_BIRGIS_FAUNA,Unknown
+TEXT_PLANET_INFO_BIRGIS_HISTORY,Birgis was a terrestrial world located in the Dalonbian sector of the Tingel Arm, it was situated between the Seline and Bimmiel systems along the Veragi Trade Route.The planet would later be devastated by the extragalactic Yuuzhan Vong species during their invasion of the galaxy.
+TEXT_PLANET_INFO_BIRGIS_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_BIRGIS_POPULATION,Human\n135 Million
+TEXT_PLANET_INFO_BIRGIS_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_BOSPH_FAUNA,Unknown
+TEXT_PLANET_INFO_BOSPH_HISTORY,Bosph was the homeworld of the Bosph species, it was discovered by the Republic several decades before the rise of the Empire. Due to the Bosphs' Force-sensitivity, Moff Harsh bombarded the planet. The Bosphs went into denial, pretending the bombardment had never occurred; though in reality, the planet was almost completely destroyed.
+TEXT_PLANET_INFO_BOSPH_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_BOSPH_POPULATION,Bosph\n100 Million
+TEXT_PLANET_INFO_BOSPH_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_BRACCA_FAUNA,Unknown
+TEXT_PLANET_INFO_BRACCA_HISTORY,Bracca is an inhospitable junkyard planet located in the galaxy's Mid Rim. It's proximity to various hyperspace routes made it a strategic target of both sides throughout the Clone Wars. During the reign of the Galactic Empire, the Scrapper Guild operated on the planet, breaking down starship wreckage and selling the components to the Empire.
+TEXT_PLANET_INFO_BRACCA_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_BRACCA_POPULATION,Abednedo | Dianoga | Human\n300 Million
+TEXT_PLANET_INFO_BRACCA_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_CARLAC_FAUNA,Unknown
+TEXT_PLANET_INFO_CARLAC_HISTORY,Carlac was a peaceful, snow-covered planet in the Outer Rim Territories. The surface of the planet was dotted with picturesque forests, interlaced between many villages, and covered with a fine coat of snow. Sometime during the Clone Wars, Death Watch used the planet as their temporary base of operations and used the planet's inhabitants as servants. However, Ahsoka Tano and Lux Bonteri managed to fend off the Mandalorians despite initial setbacks.
+TEXT_PLANET_INFO_CARLAC_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_CARLAC_POPULATION,Ming Po\n80 Million
+TEXT_PLANET_INFO_CARLAC_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_CIRCUMTORE_REVOLT_OWNER,Hutt Cartels | Independent Forces
+TEXT_PLANET_INFO_DA_SOOCHA_REVOLT_OWNER,Hutt Cartels | Independent Forces
+TEXT_PLANET_INFO_DAALANG_FAUNA,Unknown
+TEXT_PLANET_INFO_DAALANG_HISTORY,Daalang is a notable stronghold of the New Republic from 3-9 ABY. With the native population being fiercely independent and gladly willing to support anyone who resisted the Empire. This attitude, strong ties to the New Republic and the planet’s position along major trade routes were key attributes in granting Daalang the honor of hosting New Republic Trade Conferences.
+TEXT_PLANET_INFO_DAALANG_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_DAALANG_POPULATION,Human\n720 Million
+TEXT_PLANET_INFO_DAALANG_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_DAHRTAG_FAUNA,Unknown
+TEXT_PLANET_INFO_DAHRTAG_HISTORY,An eerie planet located in the outer reaches of the Core Worlds, along the Giju Run, and only known as Dahrtag on military star charts. The native N'haz Mit practice a culture which reverses the dead and treats them with great respect. This post-humanius culture combined with the vast tombs scattered across the planet would earn it the nickname, Necropolis. 
+TEXT_PLANET_INFO_DAHRTAG_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_DAHRTAG_POPULATION,Human, N'haz Mit\n<1 Million
+TEXT_PLANET_INFO_DAHRTAG_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_DARO_FAUNA,Unknown
+TEXT_PLANET_INFO_DARO_HISTORY,Daro is a forested rocky planet situated in the Outer Rim Territories. It remained uninhabited throughout most of galactic history, though the Empire would establish a military outpost on Daro as a training facility for elite commandos.
+TEXT_PLANET_INFO_DARO_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_DARO_POPULATION,None
+TEXT_PLANET_INFO_DARO_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_DOAN_FAUNA,Unknown
+TEXT_PLANET_INFO_DOAN_HISTORY,Doan was a tiny planet in the Outer Rim Territories whose sole economy was focused on mining. It was ruled by a group of nobles, the Doan Royal House, while most of its population were miners who lived in poverty. However, sometime after 980 BBY the Royal House of Doan was wiped out during a revolt by the planet's vast caste of miners who attempted to name Prince Gerran King of Doan, though he perished in the attempt.
+TEXT_PLANET_INFO_DOAN_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_DOAN_POPULATION,Native: Human\n300 Million
+TEXT_PLANET_INFO_DOAN_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_DRESSEL_FAUNA,Unknown
+TEXT_PLANET_INFO_DRESSEL_HISTORY,Discovered by Bothans around 200 BBY, Dressl is a terperate world located in the Outer Rim and is known for exceptional wildlife. The planet would later join the Glactic Republic, reluctantly, and their Senators would regularly neglect their duties. During the reign of the Empire the native Dresselians rose up against the Imperial garrision and liberated the planet. Henceforth, they would be allies of the New Republic. Following the Yuuzhan Vong War the planet would grow into a bussiling trading hub.
+TEXT_PLANET_INFO_DRESSEL_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_DRESSEL_POPULATION,Native: Dressellian\n1 to 10 Billion
+TEXT_PLANET_INFO_DRESSEL_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_EBRA_FAUNA,Unknown
+TEXT_PLANET_INFO_EBRA_HISTORY,Ebra, also referred to as Ebran, was a planet located in the Mid Rim's Kesh sector. Its surface was mountainous and featured caverns and large canyons. The Galactic Empire subjugated Ebra, enslaving the native Ebranites and forcing them to harvest lu-ramin, a plant that produced rare oils. By 12 ABY, Ebra was a part of the New Republic, following a revot by the Ebranites.
+TEXT_PLANET_INFO_EBRA_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_EBRA_POPULATION,Native: Ebranites\n430 Million
+TEXT_PLANET_INFO_EBRA_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_EIATTU_HISTORY,Located in the Mid Rim, Eiattu VI was ruled for centuries by a hereditary monarchy. When the Old Republic was transformed by the Declaration of a New Order, the then-Emperor was forced to make many concessions to the Empire to retain his throne and prevent Imperial forces from being deployed on the planet. Within a decade the deal collapsed, Stormtroopers were garrisoned on Eiattu and the planet's nobles overthrew, and later murdered, the royal family in the belief that they could negotiate a new relationship with the Empire. After the Battle of Endor a surviving heir to the royal line was discovered amongst the reformed Rogue Squadron and together they forced the Empire off Eiattu.
+TEXT_PLANET_INFO_EXCARGA_FAUNA,Unknown
+TEXT_PLANET_INFO_EXCARGA_HISTORY,A mining world with extensive ties to the Mining Guild. During the Clone Wars, just a few weeks after the First Battle of Geonosis, the Confederacy of Independent Systems initiated an attack on the planet after learning of the valuable ore located there. The Confederacy of Independent Systems attack on Excarga was successful and they imprisoned the planet's population. However their victory was short lived when Galactic Republic forces on the planet defeated the droid garrison during the Second Battle of Excarga.
+TEXT_PLANET_INFO_EXCARGA_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_EXCARGA_POPULATION,Native: Excargan\n120 Million
+TEXT_PLANET_INFO_EXCARGA_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_FEST_FAUNA,Unknown
+TEXT_PLANET_INFO_FEST_HISTORY,Fest is a largely desolate and frozen planet located in the Outer Rim. During the Clone Wars, the Confederacy of Independent Systems set up a research center on Fest, developing the phrik supermetal. However, it was raided and destroyed by Omega Squad. During the reign of the Empire the former phrik testing facilities were restored and testing resumed as part of the Dark Trooper Project.
+TEXT_PLANET_INFO_FEST_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_FEST_POPULATION,None
+TEXT_PLANET_INFO_FEST_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_GAMORR_REVOLT_OWNER,Hutt Cartels | Independent Forces
+TEXT_PLANET_INFO_GERRENTHUM_FAUNA,Unknown
+TEXT_PLANET_INFO_GERRENTHUM_FOTR_FAUNA,Unknown
+TEXT_PLANET_INFO_GERRENTHUM_FOTR_HISTORY,One of the countless backwater worlds located in the Outer Rim. As a recently established colony, Gerrenthum was of little interest to either the CIS or the Galactic Republic. However, with the emergance of the Empire, Gerrenthum would be reborn as a collosal megaworld, comparible to Centares.
+TEXT_PLANET_INFO_GERRENTHUM_FOTR_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_GERRENTHUM_FOTR_POPULATION,Human\n700 000
+TEXT_PLANET_INFO_GERRENTHUM_FOTR_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_GERRENTHUM_HISTORY,A wealthy and prosperous world in the Outer Rim, Gerrenthum is the crown jewel of the Anoat sector. During the reign of the Empire the planet grew from a sleepy Outer Rim planet into a modern megaworld. After the Battle of Endor, Moff Ubrik Adelhard initiated a blockade of the Anoat Sector in order to maintain Imperial control in the region. However, the combined forces of the New Republic and various criminal cells would defeat his forces.
+TEXT_PLANET_INFO_GERRENTHUM_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_GERRENTHUM_POPULATION,Human | Twi'lek | Others\n10 Billion
+TEXT_PLANET_INFO_GERRENTHUM_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_GRAVAN_HISTORY,A volcanic world in the Inner Rim, Gravan VII's severely polluted atmosphere is hard to navigate. Warlord Zsinj's forces would ambush Talon Squadron there, killing all in the New Republic training squadron, except for the squadron commander, Lieutenant Myn Donos.
+TEXT_PLANET_INFO_GWORI_FAUNA,Unknown
+TEXT_PLANET_INFO_GWORI_HISTORY,Gwori was home to Gwori Revolutionary Industries and was the site of one of the CIS' biggest shipyards. Early in the Clone Wars, Gwori's shipyard was infiltrated by Republic forces on a mission to destroy it. The mission marked one of the first deployments of the BTL Y-wing starfighter. During the Imperial Period, the planet's shipyards were seized by the Galactic Empire in order to exclusively produce Imperial-class Star Destroyers.
+TEXT_PLANET_INFO_GWORI_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_GWORI_POPULATION,None
+TEXT_PLANET_INFO_GWORI_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_HALM_FAUNA,Unknown
+TEXT_PLANET_INFO_HALM_HISTORY,Halm was an arid desert world, famous for its extensive mines. These mines contained rare Adegan crystals, which were used in the construction of lightsabers. In 17 BBY, the Galactic Empire attacked Halm during the Western Reaches Operation, a military campaign that sought to destroy any Separatist holdouts. In 3 ABY, many mining colonies were raided by Imperial forces prior to the Battle of Hoth.
+TEXT_PLANET_INFO_HALM_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_HALM_POPULATION,Gran\n11 Million
+TEXT_PLANET_INFO_HALM_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_HONOGHR_REVOLT_OWNER,Hutt Cartels | Independent Forces
+TEXT_PLANET_INFO_HUMBARINE_REVOLT_OWNER,Galactic Republic | Independent Forces
+TEXT_PLANET_INFO_HYPORI_REVOLT_OWNER,CIS | Independent Forces
+TEXT_PLANET_INFO_KADAVO_FAUNA,Unknown
+TEXT_PLANET_INFO_KADAVO_HISTORY,Kadavo was a planet in the Eastern reaches of Wild Space. The planet is dotted with volcanos which spew vast quantities of ash into the atmosphere and the rich metalic lave produced by these valcanos were refined by slave labor. During the Clone Wars, it was under the control of the Zygerrian Slave Empire, whom were loosly associated with the CIS.
+TEXT_PLANET_INFO_KADAVO_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_KADAVO_POPULATION,Zygerrian | Various\n35 Million
+TEXT_PLANET_INFO_KADAVO_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_KALLER_FAUNA,Unknown
+TEXT_PLANET_INFO_KALLER_HISTORY,Although Kaller was a cold terrestrial planet situated in a binary star system, it has complex seasonal variations where mild weather shifts into extreme conditions within days. It was also situated at the intersection of three different hyperspace routes. The planet was noted for its industrious culture and rich in metallic resources. As such, Kaller was contested by both sides in the Clone Wars with Count Dooku ordering it's capture prior to the Battle of Coruscant.
+TEXT_PLANET_INFO_KALLER_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_KALLER_POPULATION,Kalleran | Human\n18 Million
+TEXT_PLANET_INFO_KALLER_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_KARKARIS_FAUNA,Unknown
+TEXT_PLANET_INFO_KARKARIS_HISTORY,Karkaris was an aquatic planet in the Nilgaard sector of the Outer Rim Territories. Its expansive oceans were home to much of the world's biodiversity, including the native Karkarodon species. Despite its membership in the Galactic Republic, Karkaris declared itself neutral during the Clone Wars, though many Karkarodons aligned themselves with the Confederacy of Independent Systems.
+TEXT_PLANET_INFO_KARKARIS_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_KARKARIS_POPULATION,Karkarodon\n39 Million
+TEXT_PLANET_INFO_KARKARIS_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_KASHYYYK_HISTORY,Kashyyyk is a green and brown jungle planet covered with kilometers-high wroshyr trees and the homeworld of the fierce but loyal Wookiees. The Wookiees inhabit the wroshyr trees in huge cities that are naturally supported by the thick branches. The canopies provide a natural cover and lower aerial visibility into the Wookiee cites. Despite this, Trandoshan slavers routinely land and operate on the planet to capture Wookiees for slave labor. During the Clone Wars the planet gladly aligned itself with the Galactic Republic. By 19 BBY General Grievous oversaw preparations for the pivotal battle to capture the planet, however, he was recalled to the Deep Core by Darth Sidious for the Battle of Coruscant and the abduction of the Supreme Chancellor.
+TEXT_PLANET_INFO_KELADA_FAUNA,Unknown
+TEXT_PLANET_INFO_KELADA_HISTORY,Kelada was located within the Colonies region of the galaxy, situated on the Corellian Trade Spine. Kelada's surface was divided between industrial wasteland and natural areas, including several large forests and a vast savannah which stretched across the equator of the planet. Kelada remained loyal to the Galactic Republic during the Clone Wars. Later, during the Galactic Civil War, Kelada was an important asset for the Galactic Empire due to its production of repulsorcraft and walker components.
+TEXT_PLANET_INFO_KELADA_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_KELADA_POPULATION,Human\n650 Million
+TEXT_PLANET_INFO_KELADA_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_KESSEL_REVOLT_OWNER,Hutt Cartels | Independent Forces
+TEXT_PLANET_INFO_KIROS_FAUNA,Unknown
+TEXT_PLANET_INFO_KIROS_HISTORY,Kiros was an idyllic world filled with vast green valleys and flowing waterfalls. Located in the Expansion Region, the planet was first colonized by Togruta. Early into the Clone Wars the planet was occupied by Seperatist forces who sold the colonists to the Zygerrian Empire.
+TEXT_PLANET_INFO_KIROS_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_KIROS_POPULATION,Togruta\n11 Million
+TEXT_PLANET_INFO_KIROS_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_KIRTARKIN_FAUNA,Unknown
+TEXT_PLANET_INFO_KIRTARKIN_HISTORY,Kirtarkin was a smoky world of pollution, machinery and vast junkyards. The planet traditionally served as the customs checkpoint for the Twin Nebulae sectors in the Greater Javin region of the Outer Rim Territories. Located along the Corellian Trade Spine in the Anoat sector, Kirtarkin collected billions in revenue annually from import and export taxes.
+TEXT_PLANET_INFO_KIRTARKIN_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_KIRTARKIN_POPULATION,Human | Lutrillian | Nothoiin | Mugaari\n2 Billion
+TEXT_PLANET_INFO_KIRTARKIN_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_KORU_NEIMOIDIA_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_KORU_NEIMOIDIA_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_KUAT_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_LLON_NEBULA_FAUNA,Unknown
+TEXT_PLANET_INFO_LLON_NEBULA_HISTORY,The Llon Nebula, located in the Expansion Region, was the site of the Battle of the Llon Nebula, where the Storm Fleet incurred some losses.
+TEXT_PLANET_INFO_LLON_NEBULA_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_LLON_NEBULA_POPULATION,None
+TEXT_PLANET_INFO_LLON_NEBULA_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_LOLA_SAYU_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_LORONAR_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_LOTHO_MINOR_FAUNA,Unknown
+TEXT_PLANET_INFO_LOTHO_MINOR_HISTORY,Lotho Minor, also known as the Junk World, was a ruined planet located in the far reaches of the Outer Rim Territories. The planet acted as one of the galaxie's many dumping grounds and hosted both the highly territorial Junkers as well as Darth Maul; who was left for dead follwoing his defeat on Naboo.
+TEXT_PLANET_INFO_LOTHO_MINOR_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_LOTHO_MINOR_POPULATION,Anacondan | Junkers | Duros\n<1 Million
+TEXT_PLANET_INFO_LOTHO_MINOR_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_MALASTARE_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_MANNOVA_FAUNA,Unknown
+TEXT_PLANET_INFO_MANNOVA_HISTORY,Another Outer Rim world destined to remain a junk-heap. Mannova is located within the Gordian Reach Oversector with it's mountains pilled high with junk. Creating vast pyramids of junk built out of various warships and rare components, making it a haven for junkers.
+TEXT_PLANET_INFO_MANNOVA_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_MANNOVA_POPULATION,Mannovan\n31 Million
+TEXT_PLANET_INFO_MANNOVA_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_MINNTOOINE_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_MIRIAL_FAUNA,Unknown
+TEXT_PLANET_INFO_MIRIAL_HISTORY,Mirial was the homeworld of the Mirialans, the species of Luminara Unduli and Barriss Offee. It is a cold and dry planet located near the Hydian Way. Prior to the Clone Wars the Trade Federation made a deal to have Mirial accepted into the Republic in exchange for control over Mirial's resources. The deal proved to be a mistake for the Mirialans and many felt betray, Luminara amoung them. By 21 BBY, the planet was firmly under Seperatist control and the Republic would fail to liberate the planet until the end of the Clone Wars.
+TEXT_PLANET_INFO_MIRIAL_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_MIRIAL_POPULATION,Mirialan\n
+TEXT_PLANET_INFO_OBA_DIAH_FAUNA,Unknown
+TEXT_PLANET_INFO_OBA_DIAH_HISTORY,Oba Diah was a planet in the Outer Rim Territories, located on the end of the Kessel Run. The planet is the center of the Pyke Syndicate, who made immense profits from the illegal distribution of spice from Kessel. During 32 BBY, Jedi Master Sifo-Dyas died during an ambush by the Pykes whom were hired by Count Dooku to murder his old friend. Sifo-Dyas' body was handed over to Dooku as proof of assassination and his body would later be used to save Grievous during his transformation into a cyborg.
+TEXT_PLANET_INFO_OBA_DIAH_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_OBA_DIAH_POPULATION,Pykes | Twi'leks | Humans\n110 Million
+TEXT_PLANET_INFO_OPLOVIS_FAUNA,Unknown
+TEXT_PLANET_INFO_OPLOVIS_HISTORY,Oplovis is temperate world known for its luxury goods, notably glassware and linens. Following the battle of Endor, Admiral Gaen Drommel fled Imperial Center to established the Oplovis Protectorate.
+TEXT_PLANET_INFO_OPLOVIS_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_OPLOVIS_POPULATION,Human\n1.7 Billion
+TEXT_PLANET_INFO_OPLOVIS_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_ORD_ANTALAHA_FAUNA,Unknown
+TEXT_PLANET_INFO_ORD_ANTALAHA_HISTORY,One of several planets established as a regional depot to supply the Grand Army of the Republic, hence the Ord prefix. Ord Antalaha is a temperate world lined with vast forests beyond the many urbanized cities that dot the planet. Following the Clone Wars the military presence on the planet would diminish repidlly and the remaining colonists modified the abandoned supply depots into vast isolated fortresses.
+TEXT_PLANET_INFO_ORD_ANTALAHA_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_ORD_ANTALAHA_POPULATION,Human\n550 million
+TEXT_PLANET_INFO_ORD_ANTALAHA_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_ORD_ANTALAHA_TR_FAUNA,Unknown
+TEXT_PLANET_INFO_ORD_ANTALAHA_TR_HISTORY,One of several planets established as a regional depot to supply the Grand Army of the Republic, hence the Ord prefix. Ord Antalaha is a temperate world lined with vast forests beyond the many urbanized cities that dot the planet. Following the Clone Wars the military presence on the planet would diminish repidlly and the remaining colonists modified the abandoned supply depots into vast isolated fortresses.
+TEXT_PLANET_INFO_ORD_ANTALAHA_TR_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_ORD_ANTALAHA_TR_POPULATION,Human\n430 million
+TEXT_PLANET_INFO_ORD_ANTALAHA_TR_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_ORD_SIGATT_FAUNA,Unknown
+TEXT_PLANET_INFO_ORD_SIGATT_HISTORY,Ord Sigatt was a mining planet located in the Outer Rim Territories. The planet was originally settled by the Republic militia, but upon the discovery of carvanium by one of the settlers, it quickly evolved into a mining colony. Sometime prior to the Clone Wars, Dexter Jettster first met Obi-Wan Kenobi on the planet when the latter ran into the former's illegal blaster-running racket.
+TEXT_PLANET_INFO_ORD_SIGATT_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_ORD_SIGATT_POPULATION,Human | Besalisks\n1.2 Billion
+TEXT_PLANET_INFO_ORD_SIGATT_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_ORTO_PLUTONIA_FAUNA,Unknown
+TEXT_PLANET_INFO_ORTO_PLUTONIA_HISTORY,Orto Plutonia is an icy planet located at the far edge of the Outer Rim Territories. During the Clone Wars the planet's native inhabitants, the Talz, rose up against the Pantorans. Dispite the initial hostility, the two sides managed to agree to the independence of Orto Plutonia in exchange for peace.
+TEXT_PLANET_INFO_ORTO_PLUTONIA_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_ORTO_PLUTONIA_POPULATION,Talz\n<1 Million
+TEXT_PLANET_INFO_ORTO_PLUTONIA_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_PAX_FAUNA,Unknown
+TEXT_PLANET_INFO_PAX_HISTORY,A long neglected planet located in the Outer Rim Territories along the Hydian Way via a hyperspace tributary.
+TEXT_PLANET_INFO_PAX_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_PAX_POPULATION,None
+TEXT_PLANET_INFO_PAX_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_RANNON_FAUNA,Unknown
+TEXT_PLANET_INFO_RANNON_HISTORY,Rannon is a remote terrestrial planet located in the Instrop sector of the Outer Rim Territories. Prior to the reign of the Empire the planet would be settled by human colonists and developed into a thriving argi-world. Following the death of Galactic Emperor Palpatine at the Battle of Endor, the insane Dark Jedi Danaan Kerr also settled on the planet, living in Rannon's Valley of Ternaax as a hermit. Around 7 ABY, Kerr began to sense stirrings in the dark side of the Force indicating to him that Palpatine, who had in fact survived in a clone body, was still alive. After that revelation, Kerr's evil and corruption began to manifest, transforming the valley where he resided.
+TEXT_PLANET_INFO_RANNON_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_RANNON_POPULATION,Human\n7 Million
+TEXT_PLANET_INFO_RANNON_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_RASTEROUS_FAUNA,Unknown
+TEXT_PLANET_INFO_RASTEROUS_HISTORY,Rasterous is a temperate world located at the edge of the Expansion Region. It housed many major starship companies before being incorporated by Kuat Drive Yards during the early years of the Empire.
+TEXT_PLANET_INFO_RASTEROUS_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_RASTEROUS_POPULATION,Human\n1.2 Billion
+TEXT_PLANET_INFO_RASTEROUS_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_RAYDONIA_FAUNA,Unknown
+TEXT_PLANET_INFO_RAYDONIA_HISTORY,Raydonia was a planet in the Outer Rim Territories. The Human colonists who lived there were known as Raydonians. This planet would latter be the sight of Darth Maul and Obi-wan Kenobi's first encounger since their battle on Naboo.
+TEXT_PLANET_INFO_RAYDONIA_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_RAYDONIA_POPULATION,Human (Raydonian)\n191 Million
+TEXT_PLANET_INFO_RAYDONIA_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_RINTONNE_FOTR_FAUNA,Various
+TEXT_PLANET_INFO_RINTONNE_FOTR_HISTORY,Rintonne was a Mid Rim planet in the Lambda sector. A member of the Galactic Republic, Rintonne was the homeworld of Rasit Brun, the sectoral Senator representing Lambda in 32 BBY. During the times of the Galactic Empire, Imperial Moff Par Lankin installed a planetary Governor, Serdif Tount, to rule over Rintonne. Tount restricted the natives' freedom and for three years prevented them from discovering that the Galactic Emperor had died in 4 ABY. Circa 7 ABY, the whole sector stopped being the fiefdom of an Imperial warlord.
+TEXT_PLANET_INFO_RINTONNE_FOTR_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_RINTONNE_FOTR_POPULATION,Immigrated: Various\nSeveral Billion
+TEXT_PLANET_INFO_RINTONNE_FOTR_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_RINTONNE_HISTORY,A former colony of Ando, Rintonne would see intense development under the Galactic Empire that focused heavily on industrial manufacturing and starship construction. After the Battle of Ender, Moff Par Lankin would seize Rintonne and the majority of the Lambda sector as his personal domain. Lankin would maintain a strong grip on the region until 7 ABY, when his forces were severely crippled during the Nagai Invasion. In 9 ABY, during the Thrawn Campaign, Rintonne would rejoin the Empire.
+TEXT_PLANET_INFO_ROON_FAUNA,Unknown
+TEXT_PLANET_INFO_ROON_HISTORY,A backwater swamp world long neglected by galactic powers due to it being shrouded by the influence of the dark side. Roon's isolation in the far reaches of the Outer Rim Territories and it's dark side influence made it a prime location for adept dark force wielders. Additionally, the world housed extremely rare crystals, notably Roonstones.
+TEXT_PLANET_INFO_ROON_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_ROON_POPULATION,Human | Twi'lek | Duro | Kobok\n<1 Million
+TEXT_PLANET_INFO_ROON_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_RUURIA_FAUNA,Unknown
+TEXT_PLANET_INFO_RUURIA_HISTORY,Ruuria, on the Hydian Way, was the homeworld of the insectoid Ruurians. The planet was located along the edge of Corporate Sector territory. It featured tropical jungles, arid deserts, manufacturing centers, and universities. The Unified Ruurian Colonies would briefly surrender the planet to the Imperial Remnant when Thrawn seemingly returned from the dead in 19 ABY.
+TEXT_PLANET_INFO_RUURIA_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_RUURIA_POPULATION,Ruurian\n97 Million
+TEXT_PLANET_INFO_RUURIA_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_SOULLEX_FAUNA,Unknown
+TEXT_PLANET_INFO_SOULLEX_HISTORY,A temperate planet that was used as the headquarters of Gaen Drommel's exiled Oplovis Sector Fleet from 5 to 16 ABY.
+TEXT_PLANET_INFO_SOULLEX_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_SOULLEX_POPULATION,None
+TEXT_PLANET_INFO_SOULLEX_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_SPIRADOR_FAUNA,Unknown
+TEXT_PLANET_INFO_SPIRADOR_HISTORY,Spirador was the capital planet of the Tandon sector and was converted into a fortress world by Moff Harlov Jarnek. Following the Battle of Endor the New Republic would engage Jarnek's forces in orbit, resulting in Luke Skywalker arresting Jarnek.
+TEXT_PLANET_INFO_SPIRADOR_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_SPIRADOR_POPULATION,Human\n1 Billion
+TEXT_PLANET_INFO_SPIRADOR_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_STOBAR_FAUNA,Unknown
+TEXT_PLANET_INFO_STOBAR_HISTORY,Stobar was a dark and shadowy planet in the Boeus sector of the Expansion Region, and was known for being a very violent planet, for its many criminals. It's various space ports were amoung well-known hubs of criminal activities.
+TEXT_PLANET_INFO_STOBAR_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_STOBAR_POPULATION,nImmigrated:Human | Balnab | Rodian | Twi'lek\n120 Million
+TEXT_PLANET_INFO_STOBAR_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_SURRON_FAUNA,Unknown
+TEXT_PLANET_INFO_SURRON_HISTORY,Surron was a planet in the Expansion Region. It was the headquarters of Surron StarTech. The Surronians, which lived on this planet, had a guild-based society.
+TEXT_PLANET_INFO_SURRON_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_SURRON_POPULATION,Native: Surronians\n100 Million
+TEXT_PLANET_INFO_SURRON_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_TALUS_TRALUS_HISTORY,Talus and Tralus were part of the five brothers, the five inhabitable planets of the Corellia system. Talus and its twin planet Tralus orbited the massive Centerpoint station, which created the system. Both twin worlds were lush, green planets, home to various species. In 6 ABY, Danetta Pitta would intercept the forces of Josef Grunger above Tralus, during the latter's push towards Coruscant. Both Pitta and Grunger would perish in the resulting battle.
+TEXT_PLANET_INFO_TANDANKIN_FAUNA,Unknown
+TEXT_PLANET_INFO_TANDANKIN_HISTORY,Located in the outer reaches of the Spadja sector, Tandankin is an industrious world that provided military-grade hardware for the Galactic Empire. After the Battle of Endor, Grand Moff Nivers occupied the planet, but Tandankin was liberated by Wedge Antilles, Luke Skywalker and Rogue Squadron.
+TEXT_PLANET_INFO_TANDANKIN_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_TANDANKIN_POPULATION,Immigrated:Human | Ithorians | Kabaz\n1.5 Billion
+TEXT_PLANET_INFO_TANDANKIN_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_TRANTOR_FAUNA,Unknown
+TEXT_PLANET_INFO_TRANTOR_HISTORY,Trantor is a heavily developed, and well fortified, ecumenopolis located within the Core Worlds. The planet was focused on trade and had a thriving luxury resort industry.
+TEXT_PLANET_INFO_TRANTOR_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_TRANTOR_POPULATION,Immigrated:Human\n37 Billion
+TEXT_PLANET_INFO_TRANTOR_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_TRASSE_FAUNA,Unknown
+TEXT_PLANET_INFO_TRASSE_HISTORY,Trasse is a barren, isolated asteroid located within the Mid Rim that was heavily protected by Imperial forces. Home to a secret AT-AT factory and testing range known as the Trasse Proving Grounds, Trasse was covered with laser turrets and protected by powerful sensors. It was also a home to several prisoners of the Galactic Empire who were used as targets for live-fire exercises on the Proving Grounds. Follwoing the Battle of Endor, Grand General Malcor Brashin persued the Imperial traitors, Tantor and Tulon, finding them on asteroid.
+TEXT_PLANET_INFO_TRASSE_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_TRASSE_POPULATION,None
+TEXT_PLANET_INFO_TRASSE_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_TROSKA_FAUNA,Unknown
+TEXT_PLANET_INFO_TROSKA_HISTORY,A far flung world at the edge of the known galaxy, Troska survived in this isolated region of space through a combination of mining and industrial refining. Prior to the Battle of Endor, lieutenant Treyz Manech would hire Boba Fett to assassinate his commander, Sev Buzk, and seize command of the local garrison. His plot would prove successful, and he would turn warlord upon hearing of the Emperor's death.
+TEXT_PLANET_INFO_TROSKA_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_TROSKA_POPULATION,Immigrated: Various\n200 Million
+TEXT_PLANET_INFO_TROSKA_REVOLT_OWNER,Independent Forces
+TEXT_PLANET_INFO_YAVIN_HISTORY,Located in the Gordian Reach sector of Outer Rim lies the monstrous orange gas giant Yavin. The moon Yavin IV is a hot jungle world with four main continents separated by six oceans. Volcanic mountain ranges and wide rivers can be found amid the thick jungles. The moon has both a wet and dry season, and chaotic storms whip across its surface every few months. Yavin 4 was settled by a Dark Lord of the Sith, Naga Sadow, and his minions. Over time, survivors of Sadow's people evolved into the deadly Massassi Warriors, who built dramatic temples throughout the jungles before they vanished into legend.
+TEXT_PLANET_INFO_ZYGERRIA_FAUNA,Unknown
+TEXT_PLANET_INFO_ZYGERRIA_HISTORY,Zygerria is a world which had existed within Wild Space throughout most of galactic history. The planet experienced success during the thousands of years the Zygerrians maintained their slave labor industry, but after the Jedi cracked down on the slaving operations, it faded from glory. Slavery was brought up again when the Zygerrians collaborated with the Separatists during the Clone Wars and continued tol flourished during the Reign of the Empire.
+TEXT_PLANET_INFO_ZYGERRIA_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_ZYGERRIA_POPULATION,Zygerrian\n220 Million
+TEXT_PLANET_INFO_ZYGERRIA_REVOLT_OWNER,Independent Forces
+TEXT_STORY_GRIEVOUS_GAMBIT_CIS_ACT_I_HINT,Certain heroes are required to advance the story!  [General Grievous]
+TEXT_STORY_GRIEVOUS_GAMBIT_CIS_ACT_I_OBJECTIVE,Conquer the following planets:
+TEXT_STORY_GRIEVOUS_GAMBIT_CIS_ACT_I_TITLE,Story - Secure the Rim
+TEXT_STORY_GRIEVOUS_GAMBIT_CIS_SPEECH_01,General Grievous: We've lost the Battle of Coruscant and the Chancellor has slipped from our grasp. Along with the loss of Count Dooku causing our allies to lose faith in our ability to win this war. We must launch a new offensive if we are to regain the initiative!
+TEXT_STORY_GRIEVOUS_GAMBIT_CIS_SPEECH_01_ALT,General Grievous: We need to secure our position in the Rim by conquering these strategic worlds. Don't fail me commander.
+TEXT_STORY_GRIEVOUS_GAMBIT_CRAWL_BODY_01,The final stage of the Clone Wars is underway! Concerned about the Jedi discovering his true identity Darth Sidous has instructed General Grievous to invade   Coruscant   and   abduct   the   Chancellor.
+TEXT_STORY_GRIEVOUS_GAMBIT_CRAWL_BODY_02,Utilizing secret hyperspace routes provided by Darth Sidious the CIS armada descended upon the Republic Capital surprising the garrison. Meanwhile General Grievous managed to successfully abduct Chancellor Palpatine.
+TEXT_STORY_GRIEVOUS_GAMBIT_CRAWL_BODY_03,However, the plan goes awry when Anakin Skywalker kills Count Dooku and crash landes the Invisible Hand on Coruscant. Now General Grievous is left in a dire position above Coruscant...
+TEXT_STORY_GRIEVOUS_GAMBIT_CRAWL_HEADER,Grievous' Gambit
+TEXT_STORY_GRIEVOUS_GAMBIT_HEADER,Grievous' Gambit
+TEXT_STORY_GRIEVOUSGAMBIT_REPUBLIC_SPEECH_01,Supreme Chancellor Palpatine: Grievous' attempt to capture me has failed and with the death of Count Dooku the Separatist war effort is surely waning. Recent reports have indicated that General Grievous' remaining forces are concentrated in the Outer Rim. We must eliminate him swiftly if we are to bring this war to an end.
+TEXT_TOOLTIP_ARMYMTROOPER,Imperial Army trooper well suited for garrison duties and neutralizing light enemy resistance.
+TEXT_TOOLTIP_BONUS_RHYDONIUM_MINES,+500 absolute income modifer
+TEXT_TOOLTIP_BONUS_SERENNO,+500 absolute income modifer
+TEXT_TOOLTIP_COMMAND_COLICOID_SWARM,Modified Providence-class Carrier/Destroyer, Colicoid Swarm
+TEXT_TOOLTIP_COMMAND_DELLSO_REBORN,Providence-class Dreadnought, Archduke Reborn
+TEXT_TOOLTIP_COMMAND_LUCID_VOICE,Modified Providence-class Carrier/Destroyer, Lucid Voice
+TEXT_TOOLTIP_COMMAND_SECURER,Lucrehulk Battle Carrier, Securer
+TEXT_TOOLTIP_COMMAND_TRILM_II,Bulwark Mark II Battleship, Tribulation
+TEXT_TOOLTIP_COMMAND_UNLIMITED_PROJECTION,Lucrehulk Battleship, Unlimited Projection
+TEXT_TOOLTIP_COMMAND_UNLIMITED_PROJECTION_CARRIER,Lucrehulk Battle Carrier, Unlimited Projection
+TEXT_TOOLTIP_POGGLE_THE_LESSER,Poggle the Lesser was the Archduke of Geonosis before and during the Clone Wars, and was a leading member of the Separatist Council. Prior to the events of the Clone Wars Poggle the Lesser revolted against his superiors on Geonosis. He eventually succeeded with financial assistance from Darth Sidious and in return used his new position as Archduke to secure the supply of Battle Droids for the Trade Federation. He would conspire with the Sith in various projects including the creation of General Grievous' cyborg body as well as developing the initial plans for the Death Star. However he, along with the rest of the Separatist Council, would be betrayed by the Sith on Mustafar.
+TEXT_TOOLTIP_SAN_HILL,San Hill was a male Muun and the Chairman of the InterGalactic Banking Clan before and during the time of the Clone Wars, who pledged the Clan's monetary and military assets to the Confederacy of Independent Systems. A typical member of his species, he was more at home in business, politics and intrigue than on the battlefield. He was one of the most influential politicians in the Confederacy; in particular he was responsible for the "creation" of General Grievous, the Confederacy's feared Supreme Commander of the Droid Armies. As the leader of one of the major supporters of the Confederacy, Hill was a member of the Separatist Council during the Clone Wars, and remained in that position until his assassination at the end of the war.
+TEXT_TOOLTIP_TOTAL_INCOME,Total Credit Income (Before Ship Upkeep)
+TEXT_TOOLTIP_TRAIT_ADMIN1_GROUNDUNITS,Administrator (-30%, Ground Units, Nearby planets)
+TEXT_TOOLTIP_TRAIT_ADMIN1_STRUCTURES_RESOURCE,Administrator (-30%, Economic Structures)
+TEXT_TOOLTIP_TRAIT_ADMIN2_STRUCTURES_RESOURCE,Administrator (-25%, Economic Structures)
+TEXT_TOOLTIP_TRAIT_COMMERCIAL_SAN_HILL,Commercial Acumen (+50%)
+TEXT_TOOLTIP_TRAIT_FINEST_HOUR,Finest Hour
+TEXT_TOOLTIP_UPKEEP_10,Credit Upkeep: 10
+TEXT_TOOLTIP_UPKEEP_100,Credit Upkeep: 100
+TEXT_TOOLTIP_UPKEEP_125,Credit Upkeep: 125
+TEXT_TOOLTIP_UPKEEP_150,Credit Upkeep: 150
+TEXT_TOOLTIP_UPKEEP_20,Credit Upkeep: 20
+TEXT_TOOLTIP_UPKEEP_200,Credit Upkeep: 200
+TEXT_TOOLTIP_UPKEEP_25,Credit Upkeep: 25
+TEXT_TOOLTIP_UPKEEP_250,Credit Upkeep: 250
+TEXT_TOOLTIP_UPKEEP_30,Credit Upkeep: 30
+TEXT_TOOLTIP_UPKEEP_300,Credit Upkeep: 300
+TEXT_TOOLTIP_UPKEEP_450,Credit Upkeep: 450
+TEXT_TOOLTIP_UPKEEP_50,Credit Upkeep: 50
+TEXT_TOOLTIP_UPKEEP_500,Credit Upkeep: 500
+TEXT_TOOLTIP_UPKEEP_75,Credit Upkeep: 75
+TEXT_TOOLTIP_UPKEEP_FACTORY_ADV,Credit Upkeep: 30
+TEXT_TOOLTIP_UPKEEP_FACTORY_H,Credit Upkeep: 20
+TEXT_TOOLTIP_UPKEEP_FACTORY_L,Credit Upkeep: 10

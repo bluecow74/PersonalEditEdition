@@ -1,0 +1,62 @@
+﻿TEXT_COMPANY_GARRISON_MCS,Mon Calamari Local Militia: 1 / 1
+TEXT_COMPANY_GARRISON_TRADE_FED,Neimoidian Guards: 1 / 1
+TEXT_COMPANY_MON_CALA,Mon Calamari Shipyards
+TEXT_COMPANY_MON_CALA_DESCRIPTION,All Mon Cala products: Princess Transport Cruiser, Liberty Transport Cruiser, Home One Exploration Cruiser.
+TEXT_COMPANY_TAGGECO,TaggeCo
+TEXT_COMPANY_TAGGECO_DESCRIPTION,All TaggeCo products: JX30 Jailspeeder and Tagge Battlecruiser.
+TEXT_COMPANY_TRADE_FED,Trade Federation Office
+TEXT_COMPANY_TRADE_FED_DESCRIPTION,All Trade Federation Products: Lucrehulk Core Destroyer, HAG, B1 Battle Droid.
+TEXT_DOCUMENTATION_BODY_INFLUENCE_PLANET_ACADEMY,Republic Academy worlds: Can gain Fleet and Army Officer minor heroes (ground and space) from Academy at 4 influence and higher (GAR)
+TEXT_DOCUMENTATION_HEADER_UNIQUE_UNIT_FOTR_SITH,Sith Knights and Dark Jedi - Unlocks if Order 66 is Executed and Dooku and one of his acolytes are dead | Sith Academy
+TEXT_HERO_7001_ADLER,ADLR S-7001
+TEXT_HERO_S_7001,FKLR S-7001
+TEXT_HERO_S_7003,EULR S-7003 'März'
+TEXT_HERO_S_7007,KLBR S-7007 'Jennifer'
+TEXT_HERO_S_7015,STCR S-7015 'Luisa'
+TEXT_HERO_S_7017,STAR S-7017 'Blitzkrieg'
+TEXT_HERO_S_7019,STCR S-7019 'Leni'
+TEXT_HERO_S_7023,LSTR S-7023 'Maren'
+TEXT_PLANET_INFO_CALAMARI_INFLUENCE_REWARD,• Unlocks Princess Transport Cruiser at 7+ influence, Liberty Transport Cruiser at 8+ influence, Home One Exploration Cruiser at 10 influence
+TEXT_PLANET_INFO_CHARROS_INFLUENCE_REWARD,• Unlocks Hailfire Riot Control Droids at 7+ influence
+TEXT_PLANET_INFO_KESSEL_INFLUENCE_REWARD,• Unlocks Treaded Neutron Torches at 6+ influence
+TEXT_RESOURCE_SUPPORTS_CREW_ACADEMY_JEDI_TEMPLE,Officer Academy & Jedi Academy World
+TEXT_RESOURCE_SUPPORTS_CREW_ACADEMY_JEDI_TEMPLE_DESCRIPTION,An Officer Academy and Jedi Academy can be built on this planet.
+TEXT_RESOURCE_SUPPORTS_JEDI_TEMPLE_SITH_TEMPLE,Jedi Academy World & Sith Academy World
+TEXT_RESOURCE_SUPPORTS_JEDI_TEMPLE_SITH_TEMPLE_DESCRIPTION,A Jedi Academy and a Sith Temple can be built on this planet.
+TEXT_STORY_SITH_UNITS_AVAILABLE,Emperor Palpatine: Order 66 has been executed. The Jedi are no more… their betrayal answered with finality. No longer do their guardians stand between me… and ultimate power. Count Dooku… and his feeble conspirators… are dead. Their ambitions ended, their plots revealed the weakness they always had. Now… the path is clear. The Empire stands unchallenged. We shall enforce order in this galaxy. None remain to oppose us. The age of the Sith… begins now. [Sith Knights and Dark Jedi Available]
+TEXT_TOOLTIP_BUILDLIMIT_MANDATOR,Build Limit: 3 | Lifetime: 3
+TEXT_TOOLTIP_BUILDLIMIT_SUPERU,Build Limit: 3 | Lifetime: ∞
+TEXT_TOOLTIP_CAPABILITY_FACTORY_SHIP,Fighter Factory Ship: Unlimited Fighters
+TEXT_TOOLTIP_CAPABILITY_ORBITAL_SUPPORT_7007,Orbital Support: Adds STAR S-7017 "Blitzkrieg" to the reinforcement pool when in orbit.
+TEXT_TOOLTIP_COMMAND_AGGRESSOR,Mandator-II Star Dreadnought, Aggressor
+TEXT_TOOLTIP_COMMAND_FREE_DAC_UPGRADED,Lucrehulk Battle Carrier, Free Dac
+TEXT_TOOLTIP_COMMAND_LEVELER+,Imperator Star Destroyer Assault Refit, Leveler
+TEXT_TOOLTIP_COMMAND_S_7001,Modified Mandator-II Star Dreadnought, The Great Revolutionary
+TEXT_TOOLTIP_COMMAND_S_7007,Procurator Battlecruiser, Greene
+TEXT_TOOLTIP_COMMAND_S_7015,Providence Dreadnought, Nemesis
+TEXT_TOOLTIP_COMMAND_S_7017,A6 Juggernaut, Blitzkrieg
+TEXT_TOOLTIP_COMMAND_S_7019,Providence Dreadnought, Minerva
+TEXT_TOOLTIP_COMMAND_S_7023,Magpie Squadron
+TEXT_TOOLTIP_ESCORT_S_7007,2x Providence Dreadnought
+TEXT_TOOLTIP_LUCREHULKAUXILIARYCONTROL_UPGRADE,Retrofits an Control Auxiliary Warship into a more combat-focused battle-carrier, upgrading with advanced weaponry and armaments, as well as enhancing its defensive capabilities.
+TEXT_TOOLTIP_LUCREHULKAUXILIARYCONTROL_UPGRADEABLE,Upgrade: Can be upgraded to a Lucrehulk Control Ship at a dreadnought shipyard. [22 BBY+]
+TEXT_TOOLTIP_LUCREHULKBULKCRUISER_UPGRADE,Retrofits an Lucrehulk Bulk Cruiser into a more combat-focused battle-carrier.
+TEXT_TOOLTIP_LUCREHULKBULKCRUISER_UPGRADEABLE,Upgrade: Can be upgraded to a Lucrehulk Auxiliary Warship Ship at a dreadnought shipyard.
+TEXT_TOOLTIP_MAGPIE,The trusted wingmen of "Maren" they are mostly made up of other "Elster" units.
+TEXT_TOOLTIP_S_7001,FKLR S-7001 is an unknown biomechanical being who claims to be a "Falke" unit from "the Eusan Nation" on the moon "Heimat". However no such nation or moon exists, and she was later recruited as an admiral.
+TEXT_TOOLTIP_S_7001_ADLER,ADLR S-7001 is an unknown biomechanical being who claims to be a "Adler" unit from "the Eusan Nation" on the moon "Heimat". However no such nation or moon exists, and she was later recruited with FKLR S-7001 as her Administrator.
+TEXT_TOOLTIP_S_7003,EULR S-7003 'März' is an unknown biomechanical being who claims to be a "Eule" unit from "the Eusan Nation" on the moon "Heimat". However no such nation or moon exists, and she was later recruited with FKLR S-7001 as her Manager.
+TEXT_TOOLTIP_S_7007,KLBR S-7007 'Jennifer' is an unknown biomechanical being who claims to be a "Kolibri" unit from "the Eusan Nation" on the moon "Heimat". However no such nation or moon exists, and she was later recruited with FKLR S-7001 as her intelligence officer and later an Captain.
+TEXT_TOOLTIP_S_7007_SPECIAL,Special: Magpie Squadron
+TEXT_TOOLTIP_S_7007_SQUADRON,Fighters: 11 / ∞ | Bombers: 6 / ∞
+TEXT_TOOLTIP_S_7015,STCR S-7015 'Luisa' is an unknown biomechanical being who claims to be a "Storch" unit from "the Eusan Nation" on the moon "Heimat". However no such nation or moon exists, and she was later recruited with FKLR S-7001 as her "Fleet Controller" alongside her sister Leni and commanded the Fleet.
+TEXT_TOOLTIP_S_7017,STAR S-7017 'Blitzkrieg' is an unknown biomechanical being who claims to be a "Star" unit from "the Eusan Nation" on the moon "Heimat". However no such nation or moon exists, and she was later recruited with FKLR S-7001 as her Field Commander and commanded the ground forces.
+TEXT_TOOLTIP_S_7019,STCR S-7019 'Leni' is an unknown biomechanical being who claims to be a "Storch" unit from "the Eusan Nation" on the moon "Heimat". However no such nation or moon exists, and she was later recruited with FKLR S-7001 as her "Fleet Controller" alongside her sister Luisa and commanded the Fleet.
+TEXT_TOOLTIP_S_7023,LSTR S-7023 'Maren' is an unknown biomechanical being who claims to be a "Elster" unit from "the Eusan Nation" on the moon "Heimat". However no such nation or moon exists, and she was later recruited with FKLR S-7001 as her Ace Pilot.
+TEXT_TOOLTIP_STRANGE_SIGNAL(I)S,There's been strange signals coming from a area near Yaga Minor should we send a squad over to check it out?
+TEXT_TOOLTIP_UNITS_TECHNO_UNION,Skakoan Combat Engineers & Persuader Assault Droids: Allows unique unit construction
+TEXT_TOOLTIP_UNITS_TRADE_FED,Neimoidian Guards: Allows unique unit construction
+TEXT_TOOLTIP_VENATOR_UPGRADE,Upgrade: Refurbished Venator [Hutt Cartels, Requires Vorru for Republic]
+TEXT_UNIT_AUXILIARY_CONTROL_UPGRADE,Auxiliary Lucrehulk Control Upgrade
+TEXT_UNIT_BULK_UPGRADE,Turn your piece of scrap metal Bulk cruiser into something better
+TEXT_UNIT_MAGPIE_ARC170,Magpie Squadron ARC-170

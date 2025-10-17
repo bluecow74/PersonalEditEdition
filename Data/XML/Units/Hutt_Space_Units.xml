@@ -1,0 +1,3695 @@
+<?xml version='1.0' encoding='ASCII'?>
+<Hutt_Space_Units>
+
+	<SpecialStructure Name="Hutt_Pirate_Asteroid_Base">
+		<Text_ID>TEXT_PIRATE_STAR_BASE_1</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_PIRATE_BASE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PIRATE_BASE_HULL
+		TEXT_TOOLTIP_PIRATE_BASE_SHIELD 
+		TEXT_TOOLTIP_PIRATE_BASE_WEAP1
+		TEXT_TOOLTIP_PIRATE_BASE_WEAP2
+		TEXT_TOOLTIP_PIRATE_BASE_WEAP3 
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+
+		<Space_Model_Name>W_PirateAsteroidBase.ALO</Space_Model_Name>
+
+		<Icon_Name>i_button_asteroid_base.tga</Icon_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+
+		<Select_Box_Scale>1200</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Is_Dummy>No</Is_Dummy>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<AI_Combat_Power>6000</AI_Combat_Power>
+		<Size_Value>10</Size_Value>
+		<Tech_Level>99</Tech_Level>
+		<CategoryMask> Structure | AntiCorvette | AntiFighter </CategoryMask>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+
+		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
+		<SpaceBehavior>TELEKINESIS_TARGET,SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+
+		<Armor_Type> ArmourS_Frigate </Armor_Type>
+		<Tactical_Health>1800</Tactical_Health>
+		<Shield_Armor_Type>ShieldS_HeavyFrigate</Shield_Armor_Type>
+		<Shield_Points>3200</Shield_Points>
+		<Shield_Refresh_Rate>32</Shield_Refresh_Rate>
+
+		<AI_Combat_Power>458</AI_Combat_Power>
+
+
+		<Starting_Spawned_Units_Tech_0>MORNINGSTAR_A_SQUADRON_DOUBLE, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>PDF_Z95_Headhunter_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>IPV1, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>IPV1, 3</Reserve_Spawned_Units_Tech_0> 
+
+		<Starting_Spawned_Units_Tech_0>CONSULAR_REFIT, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CONSULAR_REFIT, 3</Reserve_Spawned_Units_Tech_0> 
+
+		<Starting_Spawned_Units_Tech_0>Gozanti_Cruiser_Raider_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser_Raider_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>PDF_DHC, 1</Starting_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>20</Spawned_Squadron_Delay_Seconds>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<Damage>35</Damage>
+
+
+		<Energy_Capacity>5000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>20000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2950.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiCorvette</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<HardPoints>
+			HP_Pirate_Base_Fighter_Bay_00,
+			HP_Pirate_Base_Heavy_Turret_00,
+			HP_Pirate_Base_Heavy_Turret_01,
+			HP_Pirate_Base_Turbolaser_00,
+			HP_Pirate_Base_Turbolaser_01,
+			HP_Pirate_Base_Turbolaser_02,
+			HP_Pirate_Base_Turbolaser_03,
+			HP_Pirate_Base_Laser_Cannon_00,
+			HP_Pirate_Base_Laser_Cannon_01
+		</HardPoints>
+
+		<SFXEvent_Fire>Unit_Turbo_Fire</SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Death_Clone>Damage_Normal, Asteroid_Field_Large_Death</Death_Clone>
+
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Custom_Soft_Footprint_Radius> 300 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
+		<Radar_Icon_Name>i_radar_station1_p.tga</Radar_Icon_Name>
+		<Score_Cost_Credits> 1500</Score_Cost_Credits>
+	</SpecialStructure>
+	
+	<SpaceUnit Name="SC_Komrk_Gunship_Group">	<!-- OKH-only -->
+		<Variant_Of_Existing_Type>Template_Komrk_Gunship_Group</Variant_Of_Existing_Type>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+	</SpaceUnit>
+
+	<!-- Corvettes/Frigates/Tier 1 -->
+
+	<SpaceUnit Name="Light_Minstrel_Yacht">
+		<Variant_Of_Existing_Type>Template_Light_Minstrel_Yacht</Variant_Of_Existing_Type>
+		<Affiliation> Hutt_Cartels </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Heavy_Minstrel_Yacht">
+		<Variant_Of_Existing_Type>Template_Heavy_Minstrel_Yacht</Variant_Of_Existing_Type>
+		<Affiliation> Hutt_Cartels </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Starting_Spawned_Units_Tech_0> Z95_Headhunter_Squadron_Half, 1 </Starting_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Tactical_Build_Cost_Multiplayer>350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Raka_Freighter_Tender">
+		<Variant_Of_Existing_Type>Template_Raka_Freighter_Tender</Variant_Of_Existing_Type>
+		<Affiliation> Hutt_Cartels </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Kaloth_Battlecruiser">
+		<Variant_Of_Existing_Type>Template_Kaloth_Battlecruiser</Variant_Of_Existing_Type>
+		<Affiliation> Hutt_Cartels, Commerce_Guild </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		CIS_Shipyard_Level_One | CIS_Shipyard_Level_Two | CIS_Shipyard_Level_Three | CIS_Shipyard_Level_Four |
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Starting_Spawned_Units_Tech_0>PDF_Z95_Headhunter_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>PDF_Z95_Headhunter_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
+
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Juvard_Frigate">
+		<Variant_Of_Existing_Type>Template_Juvard_Frigate</Variant_Of_Existing_Type>
+		<Affiliation> Hutt_Cartels </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Hutt_Galleon">
+		<Variant_Of_Existing_Type>Template_Hutt_Galleon</Variant_Of_Existing_Type>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_HUTT_GALLEON
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_HUTT_GALLEON_HULL
+		TEXT_TOOLTIP_HUTT_GALLEON_SHIELD
+		TEXT_TOOLTIP_HUTT_GALLEON_MOVE
+		TEXT_TOOLTIP_HUTT_GALLEON_SQUADRON
+		TEXT_TOOLTIP_HUTT_GALLEON_WEAP1
+		TEXT_TOOLTIP_HUTT_GALLEON_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_HUTT_GALLEON_TENDER
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Affiliation> Hutt_Cartels </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Property_Flags> DoKite | HealsVehicles </Property_Flags>
+		
+		<SpaceBehavior>TELEKINESIS_TARGET, SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		
+		<Starting_Spawned_Units_Tech_0> Morningstar_B_Squadron, 1 </Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0> Morningstar_B_Squadron, 1 </Reserve_Spawned_Units_Tech_0>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			  <Unit_Ability>
+				<Type>HARMONIC_BOMB</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Fleet_Tender_Fighter_Heal</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>0.0</Bomb_Countdown_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Force_Area_Heal</SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FLEET_TENDER_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FLEET_TENDER_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_repair_vehicle.tga</Alternate_Icon_Name>
+				<Supports_Autofire>True</Supports_Autofire>
+			  </Unit_Ability>
+		</Unit_Abilities_Data>
+		
+	</SpaceUnit>
+
+	<SpaceUnit Name="Hutt_Boarding_Shuttle">
+		<Variant_Of_Existing_Type>Template_Boarding_Shuttle</Variant_Of_Existing_Type>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+
+		<Space_Model_Name>UV_RZ-52BoardingShip.ALO</Space_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Death_Clone>Damage_Normal, Large_Explosion_Space</Death_Clone>
+		<Icon_Name>I_BUTTON_RZ52_TRANSPORT.tga</Icon_Name>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Gallofree</SFXEvent_Build_Complete>
+		<SFXEvent_Bombard_Select_Target>EHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming>EHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Fire>Unit_Underworld_Ship_Laser_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_UVT_Transport</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_UVT_Transport</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_UVT_Transport</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_UVT_Transport</SFXEvent_Attack>
+		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Gallofree_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Gallofree_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+				<Recharge_Seconds>2</Recharge_Seconds>
+				<Expiration_Seconds>5</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
+				<Alternate_Icon_Name>I_SA_CAPTURE_VEHICLES.TGA</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_ABILITY_BOARD</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_ABILITY_BOARD_DESCRIPTION</Alternate_Description_Text>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_GR_75</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_Target_Ability> Unit_Ability_GR_75 </SFXEvent_Target_Ability> 
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>INVULNERABILITY</Type>
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.0f</Mod_Multiplier> <!-- completely invulnerabe -->
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Invulnerable_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</SpaceUnit>
+
+	<!-- Heavy Frigates/Tier 2 -->
+
+	<SpaceUnit Name="Barabbula_Frigate">
+		<Variant_Of_Existing_Type>Template_Barabbula_Frigate</Variant_Of_Existing_Type>
+		<Affiliation> Hutt_Cartels </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<GUI_Row> 0 </GUI_Row>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Ubrikkian_Cruiser_CW">
+		<Variant_Of_Existing_Type>Template_Ubrikkian_Cruiser</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_UBRIKKIAN_CRUISER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_UBRIKKIAN_CRUISER_HULL
+		TEXT_TOOLTIP_UBRIKKIAN_CRUISER_SHIELD_CW
+		TEXT_TOOLTIP_UBRIKKIAN_CRUISER_MOVE_CW
+		TEXT_TOOLTIP_UBRIKKIAN_CRUISER_WEAP1_CW
+		TEXT_TOOLTIP_UBRIKKIAN_CRUISER_WEAP2_CW
+		TEXT_TOOLTIP_UBRIKKIAN_CRUISER_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_BOOTANA_HUTTA
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+
+		<Max_Rate_Of_Turn>0.375</Max_Rate_Of_Turn>
+		<OverrideAcceleration>0.175</OverrideAcceleration>
+		<OverrideDeceleration>0.35</OverrideDeceleration>
+		<Shield_Points>1800</Shield_Points>
+		<Shield_Refresh_Rate>18</Shield_Refresh_Rate>
+
+		<HardPoints>
+			HP_Ubrikkian_Cruiser_CW_Turbo_01, HP_Ubrikkian_Cruiser_CW_Turbo_02, 
+			HP_Ubrikkian_Cruiser_CW_Laser_01, HP_Ubrikkian_Cruiser_CW_Laser_02, 
+			HP_Ubrikkian_Cruiser_CW_Laser_03, HP_Ubrikkian_Cruiser_CW_Laser_04,
+			HP_Ubrikkian_Cruiser_Engine
+		</HardPoints>
+
+		<CategoryMask>Frigate | AntiFrigate </CategoryMask>
+
+		<AI_Combat_Power>565</AI_Combat_Power>
+		<Build_Cost_Credits>1050</Build_Cost_Credits>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Maintenance_Cost>15</Maintenance_Cost>
+		<Population_Value>6</Population_Value>
+
+		<Targeting_Max_Attack_Distance>2950.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiFrigate</Targeting_Priority_Set>
+
+		<Affiliation> Hutt_Cartels </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<!-- Survival -->
+		<Tactical_Build_Cost_Multiplayer>740</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Kossak_Frigate">
+		<Variant_Of_Existing_Type>Template_Kossak_Frigate</Variant_Of_Existing_Type>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<GUI_Row> 0 </GUI_Row>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+
+		<Starting_Spawned_Units_Tech_0>MorningStar_A_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>MorningStar_A_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<!-- Capitals/Tier 3 -->
+	<SpaceUnit Name="Tempest_Cruiser">
+		<Variant_Of_Existing_Type>Template_Tempest_Cruiser</Variant_Of_Existing_Type>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
+		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Capital_Category_Dummy
+		</Required_Special_Structures>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Starting_Spawned_Units_Tech_0>Scurrg_H6_Squadron_half, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Cloakshape_Squadron, 1</Starting_Spawned_Units_Tech_0>
+
+		<Reserve_Spawned_Units_Tech_0>Scurrg_H6_Squadron_half, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Cloakshape_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+
+		<!-- Survival -->
+		<Tactical_Build_Cost_Multiplayer>1545</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Szajin_Cruiser">
+		<Variant_Of_Existing_Type>Template_Szajin_Cruiser</Variant_Of_Existing_Type>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Capital_Category_Dummy
+		</Required_Special_Structures>
+
+		<Starting_Spawned_Units_Tech_0>MORNINGSTAR_B_SQUADRON_HALF, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>MORNINGSTAR_B_SQUADRON_HALF, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Karagga_Destroyer">
+		<Variant_Of_Existing_Type>Template_Karagga_Destroyer</Variant_Of_Existing_Type>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Capital_Category_Dummy
+		</Required_Special_Structures>
+
+		<Starting_Spawned_Units_Tech_0>MORNINGSTAR_B_SQUADRON_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>MORNINGSTAR_B_SQUADRON_Double, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<!-- Dreadnoughts/Tier 4 -->
+
+	<SpaceUnit Name="Vontor_Destroyer">
+		<Variant_Of_Existing_Type>Template_Vontor_Destroyer</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_VONTOR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VONTOR_HULL
+		TEXT_TOOLTIP_VONTOR_SHIELD
+		TEXT_TOOLTIP_VONTOR_MOVE 
+		TEXT_TOOLTIP_VONTOR_SQUADRON
+		TEXT_TOOLTIP_VONTOR_WEAP1
+		TEXT_TOOLTIP_VONTOR_WEAP2 
+		TEXT_TOOLTIP_VONTOR_WEAP3
+		TEXT_TOOLTIP_VONTOR_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK 
+		TEXT_TOOLTIP_CAPABILITY_BOOTANA_HUTTA
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<GUI_Row> 0 </GUI_Row>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Dreadnought_Category_Dummy
+		</Required_Special_Structures>
+
+		<Starting_Spawned_Units_Tech_0>MORNINGSTAR_B_SQUADRON_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>MORNINGSTAR_C_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>MORNINGSTAR_C_SQUADRON_Double, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>MORNINGSTAR_B_SQUADRON, 2</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Voracious_Carrier">
+		<Variant_Of_Existing_Type>Template_Voracious_Carrier</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_VORACIOUS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VORACIOUS_HULL
+		TEXT_TOOLTIP_VORACIOUS_SHIELD
+		TEXT_TOOLTIP_VORACIOUS_MOVE 
+		TEXT_TOOLTIP_VORACIOUS_SQUADRON
+		TEXT_TOOLTIP_VORACIOUS_WEAP1
+		TEXT_TOOLTIP_VORACIOUS_WEAP2 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK 
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<GUI_Row> 0 </GUI_Row>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Dreadnought_Category_Dummy
+		</Required_Special_Structures>
+
+		<Starting_Spawned_Units_Tech_0>MORNINGSTAR_A_SQUADRON_DOUBLE, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>MORNINGSTAR_B_SQUADRON_DOUBLE, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>MORNINGSTAR_C_SQUADRON_DOUBLE, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>MORNINGSTAR_A_SQUADRON_DOUBLE, 5</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>MORNINGSTAR_B_SQUADRON_DOUBLE, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>MORNINGSTAR_C_SQUADRON_DOUBLE, 5</Reserve_Spawned_Units_Tech_0>
+
+
+		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="DorBulla_Warship">
+		<Variant_Of_Existing_Type>Template_DorBulla_Warship</Variant_Of_Existing_Type>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<GUI_Row> 0 </GUI_Row>
+		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Dreadnought_Category_Dummy
+		</Required_Special_Structures>
+
+		<Starting_Spawned_Units_Tech_0> Morningstar_B_Squadron_Double, 2 </Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Kimogila_Squadron, 1</Starting_Spawned_Units_Tech_0>
+
+		<Reserve_Spawned_Units_Tech_0>Morningstar_B_Squadron_Double, 6</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Kimogila_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+
+	<SpaceUnit Name="MorningStar_A">
+		<Text_ID>TEXT_UNIT_MORNINGSTAR_A</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_A
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_A_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_A_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_A.tga</Icon_Name>
+
+		<Space_Model_Name>MorningStar-class-A_starfighter.ALO</Space_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>15</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+		<Size_Value>8</Size_Value>
+		<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Mass>0.995</Mass>
+		<Max_Speed>4.85</Max_Speed>
+		<Min_Speed>1.51</Min_Speed>
+		<Max_Thrust>2.35</Max_Thrust>
+		<OverrideAcceleration>2.35</OverrideAcceleration>
+		<OverrideDeceleration>1.17</OverrideDeceleration>
+		<Max_Lift>2.35</Max_Lift>
+		<Max_Rate_Of_Turn>3.2</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>3.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<MoveAttackWhileStopped>True</MoveAttackWhileStopped>
+
+		<Shield_Armor_Type/>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_FighterHeavy </Armor_Type>
+		<Tactical_Health>16</Tactical_Health>
+		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
+
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+
+		<Damage>1</Damage>
+		<AI_Combat_Power>2.98</AI_Combat_Power>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Maintenance_Cost>0</Maintenance_Cost>
+
+		<Ship_Class>fighter</Ship_Class>
+		<CategoryMask> Fighter | AntiFighter</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Ranking_In_Category/>
+		<Formation_Priority>2</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Create_Team>Yes</Create_Team>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>12</Number_per_Squadron>
+
+		<Population_Value>0</Population_Value>
+
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+
+		<HardPoints>HP_Morningstar_A_Laser_01, HP_Morningstar_A_Laser_02, HP_Morningstar_A_AssaultConc</HardPoints>
+
+		<Target_Bones>Target_00</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target>yes</Ground_Infantry_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Large_Fighter_Explosion_Space</Death_Explosions>
+		<Spin_Away_On_Death>yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Large_Fighter_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<SFXEvent_Select> Unit_Select_Pirate_Fighter </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Pirate_Fighter </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pirate_Fighter</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_Pirate_Fighter </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Pirate_Fighter </SFXEvent_Guard>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Pirate_Fighter</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Pirate_Fighter</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Pirate_Fighter </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Pirate_Fighter </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_Pirate_Fighter </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_Pirate_Fighter </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Pirate_Fighter</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Pirate_Fighter </SFXEvent_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Headhunter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Name/>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
+		<Targeting_Priority_Set>AntiFighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass> Space </MovementClass>
+
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Surface_Bombardment_Capable>no</Surface_Bombardment_Capable>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
+		<SFXEvent_Hardpoint> Unit_Hardpoint_TIE_Fighter </SFXEvent_Hardpoint>
+		<Min_Speed_Fraction_For_Turn>0.7</Min_Speed_Fraction_For_Turn>
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_hunt_REP_Z_95_Human_fighter </SFXEvent_GUI_Unit_Ability_Activated> 
+				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_hunt_REP_Z_95_Human_fighter </SFXEvent_GUI_Unit_Ability_Deactivated> 
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</SpaceUnit>
+
+	<Squadron Name="MorningStar_A_Squadron">
+		<Text_ID>TEXT_MORNINGSTAR_A_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FIGHTER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_A
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_A_SQUADRON
+		TEXT_STATBLOCK_MORNINGSTAR_A_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_A_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_A_one.tga</Icon_Name>
+
+		<Damage>1</Damage>
+
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline/>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>250</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits> 200</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<Lua_Script/>
+
+		<Max_Squad_Size> 12 </Max_Squad_Size>
+		<Create_Team_Type>MorningStar_A_Squadron_Container</Create_Team_Type>
+		<Squadron_Units>MorningStar_A, MorningStar_A, MorningStar_A</Squadron_Units>
+		<Squadron_Units>MorningStar_A, MorningStar_A, MorningStar_A</Squadron_Units>
+		<Squadron_Units>MorningStar_A, MorningStar_A, MorningStar_A</Squadron_Units>
+		<Squadron_Units>MorningStar_A, MorningStar_A, MorningStar_A</Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<SFXEvent_Build_Started/>
+		<SFXEvent_Build_Cancelled/>
+		<SFXEvent_Build_Complete/>
+		<SFXEvent_Fleet_Move/>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>700.0</Guard_Chase_Range>
+		<Idle_Chase_Range>800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<Container Name="MorningStar_A_Squadron_Container">
+		<Text_ID>TEXT_MORNINGSTAR_A_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_A
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_A_SQUADRON
+		TEXT_STATBLOCK_MORNINGSTAR_A_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_A_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_A_one.tga</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>4.85</Max_Speed>
+		<Min_Speed>1.51</Min_Speed>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Fighter | AntiFighter</CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>80</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<Squadron Name="MorningStar_A_Squadron_Double">
+		<Text_ID>TEXT_MORNINGSTAR_A_SQUADRON2</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FIGHTER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_A
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_A_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_MORNINGSTAR_A_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_A_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_A_two.tga</Icon_Name>
+
+		<Damage>1</Damage>
+
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline/>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>250</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits> 200</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<Lua_Script/>
+
+		<Max_Squad_Size> 24 </Max_Squad_Size>
+		<Create_Team_Type>MorningStar_A_Squadron_Double_Container</Create_Team_Type>
+		<Squadron_Units>MorningStar_A, MorningStar_A, MorningStar_A</Squadron_Units>
+		<Squadron_Units>MorningStar_A, MorningStar_A, MorningStar_A</Squadron_Units>
+		<Squadron_Units>MorningStar_A, MorningStar_A, MorningStar_A</Squadron_Units>
+		<Squadron_Units>MorningStar_A, MorningStar_A, MorningStar_A</Squadron_Units>
+		<Squadron_Units>MorningStar_A, MorningStar_A, MorningStar_A</Squadron_Units>
+		<Squadron_Units>MorningStar_A, MorningStar_A, MorningStar_A</Squadron_Units>
+		<Squadron_Units>MorningStar_A, MorningStar_A, MorningStar_A</Squadron_Units>
+		<Squadron_Units>MorningStar_A, MorningStar_A, MorningStar_A</Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+		<SFXEvent_Build_Started/>
+		<SFXEvent_Build_Cancelled/>
+		<SFXEvent_Build_Complete/>
+		<SFXEvent_Fleet_Move/>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>700.0</Guard_Chase_Range>
+		<Idle_Chase_Range>800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<Container Name="MorningStar_A_Squadron_Double_Container">
+		<Text_ID>TEXT_MORNINGSTAR_A_SQUADRON2</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_A
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_A_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_MORNINGSTAR_A_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_A_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_A_two.tga</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>4.85</Max_Speed>
+		<Min_Speed>1.51</Min_Speed>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Fighter | AntiFighter</CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size> 24 </Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>80</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<Squadron Name="MorningStar_A_Squadron_Half">
+		<Text_ID>TEXT_MORNINGSTAR_A_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FIGHTER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_A
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_A_SQUADRON_HALF
+		TEXT_STATBLOCK_MORNINGSTAR_A_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_A_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_A_half.tga</Icon_Name>
+
+		<Damage>1</Damage>
+
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline/>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>250</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits> 200</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<Lua_Script/>
+
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Create_Team_Type>MorningStar_A_Squadron_Half_Container</Create_Team_Type>
+		<Squadron_Units>MorningStar_A, MorningStar_A, MorningStar_A</Squadron_Units>
+		<Squadron_Units>MorningStar_A, MorningStar_A, MorningStar_A</Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<SFXEvent_Build_Started/>
+		<SFXEvent_Build_Cancelled/>
+		<SFXEvent_Build_Complete/>
+		<SFXEvent_Fleet_Move/>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>700.0</Guard_Chase_Range>
+		<Idle_Chase_Range>800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<Container Name="MorningStar_A_Squadron_Half_Container">
+		<Text_ID>TEXT_MORNINGSTAR_A_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_A
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_A_SQUADRON_HALF
+		TEXT_STATBLOCK_MORNINGSTAR_A_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_A_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_A_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_A_half.tga</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>4.85</Max_Speed>
+		<Min_Speed>1.51</Min_Speed>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Fighter | AntiFighter</CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>80</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+
+	<SpaceUnit Name="MorningStar_B">
+		<Text_ID>TEXT_UNIT_MORNINGSTAR_B</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_INTERCEPTOR </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_B
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_B_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_B_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP3
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_B.tga</Icon_Name>
+
+		<Space_Model_Name>MorningStar-class-B_starfighter.ALO</Space_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>15</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+		<Size_Value>8</Size_Value>
+		<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Mass>0.995</Mass>
+		<Max_Speed>3.64</Max_Speed>
+		<Min_Speed>1.42</Min_Speed>
+		<Max_Thrust>1.32</Max_Thrust>
+		<OverrideAcceleration>1.32</OverrideAcceleration>
+		<OverrideDeceleration>0.66</OverrideDeceleration>
+		<Max_Lift>1.32</Max_Lift>
+		<Max_Rate_Of_Turn>2.56</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>2.56</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<MoveAttackWhileStopped>True</MoveAttackWhileStopped>
+
+		<Shield_Armor_Type/>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_FighterHeavy </Armor_Type>
+		<Tactical_Health>17</Tactical_Health>
+		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
+
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+
+		<Damage>1</Damage>
+		<AI_Combat_Power>2.24</AI_Combat_Power>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Maintenance_Cost>0</Maintenance_Cost>
+
+		<Ship_Class>fighter</Ship_Class>
+		<CategoryMask> Fighter | AntiFighter</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Ranking_In_Category/>
+		<Formation_Priority>2</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Create_Team>Yes</Create_Team>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>12</Number_per_Squadron>
+
+		<Population_Value>0</Population_Value>
+
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+
+		<HardPoints>HP_Morningstar_B_Laser_01, HP_Morningstar_B_Laser_02, HP_Morningstar_B_Laser_03, HP_Morningstar_B_Laser_04</HardPoints>
+
+		<Target_Bones>Target_00</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target>yes</Ground_Infantry_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Large_Fighter_Explosion_Space</Death_Explosions>
+		<Spin_Away_On_Death>yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Large_Fighter_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<SFXEvent_Select> Unit_Select_Pirate_Fighter </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Pirate_Fighter </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pirate_Fighter</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_Pirate_Fighter </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Pirate_Fighter </SFXEvent_Guard>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Pirate_Fighter</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Pirate_Fighter</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Pirate_Fighter </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Pirate_Fighter </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_Pirate_Fighter </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_Pirate_Fighter </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Pirate_Fighter</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Pirate_Fighter </SFXEvent_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Headhunter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Name/>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
+		<Targeting_Priority_Set>AntiFighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass> Space </MovementClass>
+
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Surface_Bombardment_Capable>no</Surface_Bombardment_Capable>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
+		<SFXEvent_Hardpoint> Unit_Hardpoint_TIE_Fighter </SFXEvent_Hardpoint>
+		<Min_Speed_Fraction_For_Turn>0.7</Min_Speed_Fraction_For_Turn>
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_hunt_REP_Z_95_Human_fighter </SFXEvent_GUI_Unit_Ability_Activated> 
+				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_hunt_REP_Z_95_Human_fighter </SFXEvent_GUI_Unit_Ability_Deactivated> 
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</SpaceUnit>
+
+	<Squadron Name="MorningStar_B_Squadron">
+		<Text_ID>TEXT_MORNINGSTAR_B_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_INTERCEPTOR</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_B
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_B_SQUADRON
+		TEXT_STATBLOCK_MORNINGSTAR_B_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_B_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP3
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_B_one.tga</Icon_Name>
+
+		<Damage>1</Damage>
+
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline/>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>250</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits> 200</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<Lua_Script/>
+
+		<Max_Squad_Size> 12 </Max_Squad_Size>
+		<Create_Team_Type>MorningStar_B_Squadron_Container</Create_Team_Type>
+		<Squadron_Units>MorningStar_B, MorningStar_B, MorningStar_B</Squadron_Units>
+		<Squadron_Units>MorningStar_B, MorningStar_B, MorningStar_B</Squadron_Units>
+		<Squadron_Units>MorningStar_B, MorningStar_B, MorningStar_B</Squadron_Units>
+		<Squadron_Units>MorningStar_B, MorningStar_B, MorningStar_B</Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<SFXEvent_Build_Started/>
+		<SFXEvent_Build_Cancelled/>
+		<SFXEvent_Build_Complete/>
+		<SFXEvent_Fleet_Move/>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>700.0</Guard_Chase_Range>
+		<Idle_Chase_Range>800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<Container Name="MorningStar_B_Squadron_Container">
+		<Text_ID>TEXT_MORNINGSTAR_B_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_INTERCEPTOR </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_B
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_B_SQUADRON
+		TEXT_STATBLOCK_MORNINGSTAR_B_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_B_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP3
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_B_one.tga</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>3.64</Max_Speed>
+		<Min_Speed>1.42</Min_Speed>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Fighter | AntiFighter</CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>80</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<Squadron Name="MorningStar_B_Squadron_Double">
+		<Text_ID>TEXT_MORNINGSTAR_B_SQUADRON2</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_INTERCEPTOR</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_B
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_B_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_MORNINGSTAR_B_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_B_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP3
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_B_two.tga</Icon_Name>
+
+		<Damage>1</Damage>
+
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline/>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>250</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits> 200</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<Lua_Script/>
+
+		<Max_Squad_Size> 24 </Max_Squad_Size>
+		<Create_Team_Type>MorningStar_B_Squadron_Double_Container</Create_Team_Type>
+		<Squadron_Units>MorningStar_B, MorningStar_B, MorningStar_B</Squadron_Units>
+		<Squadron_Units>MorningStar_B, MorningStar_B, MorningStar_B</Squadron_Units>
+		<Squadron_Units>MorningStar_B, MorningStar_B, MorningStar_B</Squadron_Units>
+		<Squadron_Units>MorningStar_B, MorningStar_B, MorningStar_B</Squadron_Units>
+		<Squadron_Units>MorningStar_B, MorningStar_B, MorningStar_B</Squadron_Units>
+		<Squadron_Units>MorningStar_B, MorningStar_B, MorningStar_B</Squadron_Units>
+		<Squadron_Units>MorningStar_B, MorningStar_B, MorningStar_B</Squadron_Units>
+		<Squadron_Units>MorningStar_B, MorningStar_B, MorningStar_B</Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+		<SFXEvent_Build_Started/>
+		<SFXEvent_Build_Cancelled/>
+		<SFXEvent_Build_Complete/>
+		<SFXEvent_Fleet_Move/>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>700.0</Guard_Chase_Range>
+		<Idle_Chase_Range>800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<Container Name="MorningStar_B_Squadron_Double_Container">
+		<Text_ID>TEXT_MORNINGSTAR_B_SQUADRON2</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_INTERCEPTOR </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_B
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_B_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_MORNINGSTAR_B_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_B_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP3
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_B_two.tga</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>3.64</Max_Speed>
+		<Min_Speed>1.42</Min_Speed>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Fighter | AntiFighter</CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size> 24 </Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>80</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<Squadron Name="MorningStar_B_Squadron_Half">
+		<Text_ID>TEXT_MORNINGSTAR_B_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_INTERCEPTOR</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_B
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_B_SQUADRON_HALF
+		TEXT_STATBLOCK_MORNINGSTAR_B_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_B_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP3
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_B_half.tga</Icon_Name>
+
+		<Damage>1</Damage>
+
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline/>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>250</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits> 200</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<Lua_Script/>
+
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Create_Team_Type>MorningStar_B_Squadron_Half_Container</Create_Team_Type>
+		<Squadron_Units>MorningStar_B, MorningStar_B, MorningStar_B</Squadron_Units>
+		<Squadron_Units>MorningStar_B, MorningStar_B, MorningStar_B</Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<SFXEvent_Build_Started/>
+		<SFXEvent_Build_Cancelled/>
+		<SFXEvent_Build_Complete/>
+		<SFXEvent_Fleet_Move/>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>700.0</Guard_Chase_Range>
+		<Idle_Chase_Range>800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<Container Name="MorningStar_B_Squadron_Half_Container">
+		<Text_ID>TEXT_MORNINGSTAR_B_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_INTERCEPTOR </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_B
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_B_SQUADRON_HALF
+		TEXT_STATBLOCK_MORNINGSTAR_B_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_B_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP3
+		TEXT_STATBLOCK_MORNINGSTAR_B_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_B_half.tga</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>3.64</Max_Speed>
+		<Min_Speed>1.42</Min_Speed>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Fighter | AntiFighter</CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>80</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+
+	<SpaceUnit Name="MorningStar_C">
+		<Text_ID>TEXT_UNIT_MORNINGSTAR_C</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_C
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_C_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_C_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP3
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_C.tga</Icon_Name>
+
+		<Space_Model_Name>MorningStar-class-C_starfighter.ALO</Space_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>15</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+		<Size_Value>8</Size_Value>
+		<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Mass>0.995</Mass>
+		<Max_Speed>4.37</Max_Speed>
+		<Min_Speed>1.52</Min_Speed>
+		<Max_Thrust>1.90</Max_Thrust>
+		<OverrideAcceleration>1.90</OverrideAcceleration>
+		<OverrideDeceleration>0.95</OverrideDeceleration>
+		<Max_Lift>1.90</Max_Lift>
+		<Max_Rate_Of_Turn>2.88</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>2.88</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<MoveAttackWhileStopped>True</MoveAttackWhileStopped>
+
+		<Shield_Armor_Type/>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_FighterHeavy </Armor_Type>
+		<Tactical_Health>18</Tactical_Health>
+		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
+
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+
+		<Damage>1</Damage>
+		<AI_Combat_Power>6.36</AI_Combat_Power>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Maintenance_Cost>0</Maintenance_Cost>
+
+		<Ship_Class>bomber</Ship_Class>
+		<CategoryMask> Bomber | AntiCapital</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Ranking_In_Category/>
+		<Formation_Priority>2</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>yes</Is_Bomber>
+		<Create_Team>Yes</Create_Team>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>12</Number_per_Squadron>
+
+		<Population_Value>0</Population_Value>
+
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+
+		<HardPoints>HP_Morningstar_C_Laser_01, HP_Morningstar_C_Laser_02, HP_Morningstar_C_Bomb_01, HP_Morningstar_C_Bomb_02</HardPoints>
+
+		<Target_Bones>Target_00</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target>yes</Ground_Infantry_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Large_Fighter_Explosion_Space</Death_Explosions>
+		<Spin_Away_On_Death>yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Large_Fighter_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<SFXEvent_Select> Unit_Select_Pirate_Fighter </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Pirate_Fighter </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pirate_Fighter</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_Pirate_Fighter </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Pirate_Fighter </SFXEvent_Guard>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Pirate_Fighter</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Pirate_Fighter</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Pirate_Fighter </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Pirate_Fighter </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_Pirate_Fighter </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_Pirate_Fighter </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Pirate_Fighter</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Pirate_Fighter </SFXEvent_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Headhunter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Name/>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
+		<Targeting_Priority_Set>AntiCapital</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass> Space </MovementClass>
+		<Land_Bomber_Type>MorningStar_C_Bombing_Run</Land_Bomber_Type>
+
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Surface_Bombardment_Capable>no</Surface_Bombardment_Capable>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
+		<SFXEvent_Hardpoint> Unit_Hardpoint_TIE_Fighter </SFXEvent_Hardpoint>
+		<Min_Speed_Fraction_For_Turn>0.7</Min_Speed_Fraction_For_Turn>
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_hunt_REP_Z_95_Human_fighter </SFXEvent_GUI_Unit_Ability_Activated> 
+				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_hunt_REP_Z_95_Human_fighter </SFXEvent_GUI_Unit_Ability_Deactivated> 
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</SpaceUnit>
+
+	<Squadron Name="MorningStar_C_Squadron">
+		<Text_ID>TEXT_MORNINGSTAR_C_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_C
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_C_SQUADRON
+		TEXT_STATBLOCK_MORNINGSTAR_C_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_C_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP3
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_C_one.tga</Icon_Name>
+
+		<Damage>1</Damage>
+
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>No</Is_Escort>
+		<Is_Bomber>yes</Is_Bomber>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline/>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>250</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits> 200</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<Lua_Script/>
+
+		<Max_Squad_Size> 12 </Max_Squad_Size>
+		<Create_Team_Type>MorningStar_C_Squadron_Container</Create_Team_Type>
+		<Squadron_Units>MorningStar_C, MorningStar_C, MorningStar_C</Squadron_Units>
+		<Squadron_Units>MorningStar_C, MorningStar_C, MorningStar_C</Squadron_Units>
+		<Squadron_Units>MorningStar_C, MorningStar_C, MorningStar_C</Squadron_Units>
+		<Squadron_Units>MorningStar_C, MorningStar_C, MorningStar_C</Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<SFXEvent_Build_Started/>
+		<SFXEvent_Build_Cancelled/>
+		<SFXEvent_Build_Complete/>
+		<SFXEvent_Fleet_Move/>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>700.0</Guard_Chase_Range>
+		<Idle_Chase_Range>800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<Container Name="MorningStar_C_Squadron_Container">
+		<Text_ID>TEXT_MORNINGSTAR_C_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_C
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_C_SQUADRON
+		TEXT_STATBLOCK_MORNINGSTAR_C_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_C_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP3
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_C_one.tga</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>4.37</Max_Speed>
+		<Min_Speed>1.52</Min_Speed>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Bomber | AntiCapital</CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>80</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<Squadron Name="MorningStar_C_Squadron_Double">
+		<Text_ID>TEXT_MORNINGSTAR_C_SQUADRON2</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_C
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_C_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_MORNINGSTAR_C_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_C_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP3
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_C_two.tga</Icon_Name>
+
+		<Damage>1</Damage>
+
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>No</Is_Escort>
+		<Is_Bomber>yes</Is_Bomber>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline/>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>250</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits> 200</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<Lua_Script/>
+
+		<Max_Squad_Size> 24 </Max_Squad_Size>
+		<Create_Team_Type>MorningStar_C_Squadron_Double_Container</Create_Team_Type>
+		<Squadron_Units>MorningStar_C, MorningStar_C, MorningStar_C</Squadron_Units>
+		<Squadron_Units>MorningStar_C, MorningStar_C, MorningStar_C</Squadron_Units>
+		<Squadron_Units>MorningStar_C, MorningStar_C, MorningStar_C</Squadron_Units>
+		<Squadron_Units>MorningStar_C, MorningStar_C, MorningStar_C</Squadron_Units>
+		<Squadron_Units>MorningStar_C, MorningStar_C, MorningStar_C</Squadron_Units>
+		<Squadron_Units>MorningStar_C, MorningStar_C, MorningStar_C</Squadron_Units>
+		<Squadron_Units>MorningStar_C, MorningStar_C, MorningStar_C</Squadron_Units>
+		<Squadron_Units>MorningStar_C, MorningStar_C, MorningStar_C</Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+		<SFXEvent_Build_Started/>
+		<SFXEvent_Build_Cancelled/>
+		<SFXEvent_Build_Complete/>
+		<SFXEvent_Fleet_Move/>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>700.0</Guard_Chase_Range>
+		<Idle_Chase_Range>800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<Container Name="MorningStar_C_Squadron_Double_Container">
+		<Text_ID>TEXT_MORNINGSTAR_C_SQUADRON2</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_C
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_C_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_MORNINGSTAR_C_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_C_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP3
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_C_two.tga</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>4.37</Max_Speed>
+		<Min_Speed>1.52</Min_Speed>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Bomber | AntiCapital</CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size> 24 </Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>80</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<Squadron Name="MorningStar_C_Squadron_Half">
+		<Text_ID>TEXT_MORNINGSTAR_C_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_C
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_C_SQUADRON_HALF
+		TEXT_STATBLOCK_MORNINGSTAR_C_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_C_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP3
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_C_half.tga</Icon_Name>
+
+		<Damage>1</Damage>
+
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>No</Is_Escort>
+		<Is_Bomber>yes</Is_Bomber>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline/>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>250</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits> 200</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<Lua_Script/>
+
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Create_Team_Type>MorningStar_C_Squadron_Half_Container</Create_Team_Type>
+		<Squadron_Units>MorningStar_C, MorningStar_C, MorningStar_C</Squadron_Units>
+		<Squadron_Units>MorningStar_C, MorningStar_C, MorningStar_C</Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<SFXEvent_Build_Started/>
+		<SFXEvent_Build_Cancelled/>
+		<SFXEvent_Build_Complete/>
+		<SFXEvent_Fleet_Move/>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>700.0</Guard_Chase_Range>
+		<Idle_Chase_Range>800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<Container Name="MorningStar_C_Squadron_Half_Container">
+		<Text_ID>TEXT_MORNINGSTAR_C_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MORNINGSTAR_C
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_MORNINGSTAR_C_SQUADRON_HALF
+		TEXT_STATBLOCK_MORNINGSTAR_C_BASE
+		TEXT_STATBLOCK_MORNINGSTAR_C_MOVE
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP1
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP2
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP3
+		TEXT_STATBLOCK_MORNINGSTAR_C_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MorningStar_C_half.tga</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>4.37</Max_Speed>
+		<Min_Speed>1.52</Min_Speed>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Bomber | AntiCapital</CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>80</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+	
+	
+	<SpaceUnit Name="Kusak">
+		<Variant_Of_Existing_Type>Kimogila</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_KUSAK</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_KUSAK
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_KUSAK_BASE
+		TEXT_STATBLOCK_KUSAK_MOVE
+		TEXT_STATBLOCK_KUSAK_WEAP1
+		TEXT_STATBLOCK_KUSAK_WEAP2
+		TEXT_STATBLOCK_KUSAK_WEAP3
+		TEXT_STATBLOCK_KUSAK_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_kusak.tga</Icon_Name>
+		
+		<Space_Model_Name>M11-A_Kusak_bomber.ALO</Space_Model_Name>
+		<Scale_Factor>0.3075</Scale_Factor> 	<!-- Placeholder until asset fix -->
+
+		<Armor_Type>ArmourS_Fighter</Armor_Type>
+		<Tactical_Health>20</Tactical_Health>
+		<Shield_Points>6</Shield_Points>
+		<Shield_Refresh_Rate>0.3</Shield_Refresh_Rate>
+		
+		<Min_Speed>2.11</Min_Speed>
+		<Max_Rate_Of_Turn>2.06</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>2.06</Max_Rate_Of_Roll>
+		<AI_Combat_Power>6.73</AI_Combat_Power>
+
+		<HardPoints> HP_Kusak_00, HP_Kusak_01, HP_Kusak_02, HP_Kusak_03 </HardPoints>
+		
+		<Land_Bomber_Type>Kusak_Bombing_Run</Land_Bomber_Type>
+		
+	</SpaceUnit>
+	
+	<Squadron Name="Kusak_Squadron">
+
+		<Text_ID>TEXT_KUSAK_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_BOMBER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_KUSAK 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_KUSAK_SQUADRON
+		TEXT_STATBLOCK_KUSAK_BASE
+		TEXT_STATBLOCK_KUSAK_MOVE
+		TEXT_STATBLOCK_KUSAK_WEAP1
+		TEXT_STATBLOCK_KUSAK_WEAP2
+		TEXT_STATBLOCK_KUSAK_WEAP3
+		TEXT_STATBLOCK_KUSAK_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_kusak_one.tga</Icon_Name>
+
+		<Damage>1</Damage>
+
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline/>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation/>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits> 200</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<Lua_Script/>
+
+		<Max_Squad_Size> 12 </Max_Squad_Size>
+		<Create_Team_Type>Kusak_Squadron_Container</Create_Team_Type>
+		<Squadron_Units>Kusak, Kusak, Kusak</Squadron_Units>
+		<Squadron_Units>Kusak, Kusak, Kusak</Squadron_Units>
+		<Squadron_Units>Kusak, Kusak, Kusak</Squadron_Units>
+		<Squadron_Units>Kusak, Kusak, Kusak</Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<SFXEvent_Build_Started/>
+		<SFXEvent_Build_Cancelled/>
+		<SFXEvent_Build_Complete/>
+		<SFXEvent_Fleet_Move/>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>700.0</Guard_Chase_Range>
+		<Idle_Chase_Range>800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<Container Name="Kusak_Squadron_Container">
+		<Text_ID>TEXT_KUSAK_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_BOMBER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_KUSAK 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_KUSAK_SQUADRON
+		TEXT_STATBLOCK_KUSAK_BASE
+		TEXT_STATBLOCK_KUSAK_MOVE
+		TEXT_STATBLOCK_KUSAK_WEAP1
+		TEXT_STATBLOCK_KUSAK_WEAP2
+		TEXT_STATBLOCK_KUSAK_WEAP3
+		TEXT_STATBLOCK_KUSAK_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_kusak_one.tga</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>4.35</Max_Speed>
+		<Min_Speed>2.11</Min_Speed>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Bomber | AntiCapital</CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>3</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>30</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+	</Container>
+
+	<Squadron Name="Kusak_Squadron_Double">
+
+		<Text_ID>TEXT_KUSAK_SQUADRON2</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_BOMBER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_KUSAK 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_KUSAK_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_KUSAK_BASE
+		TEXT_STATBLOCK_KUSAK_MOVE
+		TEXT_STATBLOCK_KUSAK_WEAP1
+		TEXT_STATBLOCK_KUSAK_WEAP2
+		TEXT_STATBLOCK_KUSAK_WEAP3
+		TEXT_STATBLOCK_KUSAK_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_kusak_two.tga</Icon_Name>
+
+		<Damage>1</Damage>
+
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline/>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation/>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits> 200</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<Lua_Script/>
+
+		<Max_Squad_Size> 24 </Max_Squad_Size>
+		<Create_Team_Type>Kusak_Squadron_Double_Container</Create_Team_Type>
+		<Squadron_Units>Kusak, Kusak, Kusak</Squadron_Units>
+		<Squadron_Units>Kusak, Kusak, Kusak</Squadron_Units>
+		<Squadron_Units>Kusak, Kusak, Kusak</Squadron_Units>
+		<Squadron_Units>Kusak, Kusak, Kusak</Squadron_Units>
+		<Squadron_Units>Kusak, Kusak, Kusak</Squadron_Units>
+		<Squadron_Units>Kusak, Kusak, Kusak</Squadron_Units>
+		<Squadron_Units>Kusak, Kusak, Kusak</Squadron_Units>
+		<Squadron_Units>Kusak, Kusak, Kusak</Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+		<SFXEvent_Build_Started/>
+		<SFXEvent_Build_Cancelled/>
+		<SFXEvent_Build_Complete/>
+		<SFXEvent_Fleet_Move/>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>700.0</Guard_Chase_Range>
+		<Idle_Chase_Range>800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<Container Name="Kusak_Squadron_Double_Container">
+		<Text_ID>TEXT_KUSAK_SQUADRON2</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_BOMBER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_KUSAK 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_KUSAK_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_KUSAK_BASE
+		TEXT_STATBLOCK_KUSAK_MOVE
+		TEXT_STATBLOCK_KUSAK_WEAP1
+		TEXT_STATBLOCK_KUSAK_WEAP2
+		TEXT_STATBLOCK_KUSAK_WEAP3
+		TEXT_STATBLOCK_KUSAK_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_kusak_two.tga</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>4.35</Max_Speed>
+		<Min_Speed>2.11</Min_Speed>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Bomber | AntiCapital</CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>3</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size>24</Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>30</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+	</Container>
+
+	<Squadron Name="Kusak_Squadron_Half">
+
+		<Text_ID>TEXT_KUSAK_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_BOMBER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_KUSAK 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_KUSAK_SQUADRON_HALF
+		TEXT_STATBLOCK_KUSAK_BASE
+		TEXT_STATBLOCK_KUSAK_MOVE
+		TEXT_STATBLOCK_KUSAK_WEAP1
+		TEXT_STATBLOCK_KUSAK_WEAP2
+		TEXT_STATBLOCK_KUSAK_WEAP3
+		TEXT_STATBLOCK_KUSAK_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_kusak_half.tga</Icon_Name>
+
+		<Damage>1</Damage>
+
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline/>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation/>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits> 200</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<Lua_Script/>
+
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Create_Team_Type>Kusak_Squadron_Half_Container</Create_Team_Type>
+		<Squadron_Units>Kusak, Kusak, Kusak</Squadron_Units>
+		<Squadron_Units>Kusak, Kusak, Kusak</Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<SFXEvent_Build_Started/>
+		<SFXEvent_Build_Cancelled/>
+		<SFXEvent_Build_Complete/>
+		<SFXEvent_Fleet_Move/>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>700.0</Guard_Chase_Range>
+		<Idle_Chase_Range>800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<Container Name="Kusak_Squadron_Half_Container">
+
+		<Text_ID>TEXT_KUSAK_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_BOMBER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_KUSAK 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_KUSAK_SQUADRON_HALF
+		TEXT_STATBLOCK_KUSAK_BASE
+		TEXT_STATBLOCK_KUSAK_MOVE
+		TEXT_STATBLOCK_KUSAK_WEAP1
+		TEXT_STATBLOCK_KUSAK_WEAP2
+		TEXT_STATBLOCK_KUSAK_WEAP3
+		TEXT_STATBLOCK_KUSAK_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_kusak_half.tga</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>4.35</Max_Speed>
+		<Min_Speed>2.11</Min_Speed>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Bomber | AntiCapital</CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>3</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size>6</Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>30</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+	</Container>
+
+	
+	<SpaceUnit Name="Kell_Gunship">
+		<Variant_Of_Existing_Type>Krayt_Gunship</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_KELL_GUNSHIP</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_KELL_GUNSHIP
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_KELL_GUNSHIP_BASE
+		TEXT_STATBLOCK_KELL_GUNSHIP_MOVE
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP1
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP2
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_Kell_Gunship.tga</Icon_Name>
+		
+		<Space_Model_Name>M11-T_Kell_gunship.ALO</Space_Model_Name>
+		<Scale_Factor>0.3075</Scale_Factor> 	<!-- Placeholder until asset fix -->
+
+		<Tactical_Health>27</Tactical_Health>
+		<Shield_Armor_Type>ShieldS_Fighter</Shield_Armor_Type>
+		<Shield_Points>11</Shield_Points>
+		<Shield_Refresh_Rate>0.55</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_FighterHeavy </Armor_Type>
+		
+		<Min_Speed>1.73</Min_Speed>
+		<Max_Rate_Of_Turn>2.36</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>2.36</Max_Rate_Of_Roll>
+		<AI_Combat_Power>4.91</AI_Combat_Power>
+
+		<HardPoints>HP_Kell_Gunship_Laser_01, HP_Kell_Gunship_Laser_02, HP_Kell_Gunship_Ion, HP_Kell_Gunship_AssaultConc</HardPoints>
+		
+		<SFXEvent_Select>Unit_Select_Kell_Gunship</SFXEvent_Select>
+	</SpaceUnit>
+
+	<Squadron Name="Kell_Gunship_Squadron">
+		<Text_ID>TEXT_UNIT_KELL_GUNSHIP_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_GUNBOAT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_KELL_GUNSHIP
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_KELL_GUNSHIP_SQUADRON
+		TEXT_STATBLOCK_KELL_GUNSHIP_BASE
+		TEXT_STATBLOCK_KELL_GUNSHIP_MOVE
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP1
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP2
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_Kell_Gunship_one.tga</Icon_Name>
+
+		<Damage>1</Damage>
+
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline/>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>400</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits>450</Slice_Cost_Credits>
+		<Required_Special_Structures/>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>900</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits> 420</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
+
+		<Lua_Script/>
+
+		<Max_Squad_Size> 12 </Max_Squad_Size>
+		<Create_Team_Type>Kell_Gunship_Squadron_Container</Create_Team_Type>
+		<Squadron_Units>Kell_Gunship, Kell_Gunship, Kell_Gunship, Kell_Gunship</Squadron_Units>
+		<Squadron_Units>Kell_Gunship, Kell_Gunship, Kell_Gunship, Kell_Gunship</Squadron_Units>
+		<Squadron_Units>Kell_Gunship, Kell_Gunship, Kell_Gunship, Kell_Gunship</Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-10.0,20.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-10.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-10.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-10.0,-20.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-70.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-70.0,10.0,0.0</Squadron_Offsets>
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Kell_Gunship</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Krayt_Gunship</SFXEvent_Fleet_Move>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Hyperspace>No</Hyperspace>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Required_Planets/>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+	</Squadron>
+
+	<Container Name="Kell_Gunship_Squadron_Container">
+		<Text_ID>TEXT_UNIT_KELL_GUNSHIP_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_GUNBOAT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_KELL_GUNSHIP
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_KELL_GUNSHIP_SQUADRON
+		TEXT_STATBLOCK_KELL_GUNSHIP_BASE
+		TEXT_STATBLOCK_KELL_GUNSHIP_MOVE
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP1
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP2
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP3
+		</Encyclopedia_Text>
+
+		<Icon_Name>i_button_Kell_Gunship_one.tga</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>4.1</Max_Speed>
+		<Min_Speed>1.73</Min_Speed>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Fighter | AntiFighter</CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>3</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>30</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+	</Container>
+
+	<Squadron Name="Kell_Gunship_Squadron_Double">
+		<Text_ID>TEXT_UNIT_KELL_GUNSHIP_SQUADRON2</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_GUNBOAT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_KELL_GUNSHIP 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_STATBLOCK_KELL_GUNSHIP_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_KELL_GUNSHIP_BASE 
+		TEXT_STATBLOCK_KELL_GUNSHIP_MOVE 
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP1
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP2
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_Kell_Gunship_two.tga</Icon_Name>
+
+		<Damage>1</Damage>
+
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline/>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>400</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits>450</Slice_Cost_Credits>
+		<Required_Special_Structures/>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>900</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits> 420</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
+
+		<Lua_Script/>
+
+		<Max_Squad_Size> 24 </Max_Squad_Size>
+		<Create_Team_Type>Kell_Gunship_Squadron_Double_Container</Create_Team_Type>
+		<Squadron_Units>Kell_Gunship, Kell_Gunship, Kell_Gunship, Kell_Gunship</Squadron_Units>
+		<Squadron_Units>Kell_Gunship, Kell_Gunship, Kell_Gunship, Kell_Gunship</Squadron_Units>
+		<Squadron_Units>Kell_Gunship, Kell_Gunship, Kell_Gunship, Kell_Gunship</Squadron_Units>
+		<Squadron_Units>Kell_Gunship, Kell_Gunship, Kell_Gunship, Kell_Gunship</Squadron_Units>
+		<Squadron_Units>Kell_Gunship, Kell_Gunship, Kell_Gunship, Kell_Gunship</Squadron_Units>
+		<Squadron_Units>Kell_Gunship, Kell_Gunship, Kell_Gunship, Kell_Gunship</Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-10.0,20.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-10.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-10.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-10.0,-20.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-70.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-70.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,10.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,-10.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-10.0,20.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-10.0,40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-10.0,-40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-10.0,-20.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-70.0,-10.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-70.0,10.0,80.0</Squadron_Offsets>
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Krayt_Gunship</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move/>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Hyperspace>No</Hyperspace>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Required_Planets/>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+	</Squadron>
+
+	<Container Name="Kell_Gunship_Squadron_Double_Container">
+		<Text_ID>TEXT_UNIT_KELL_GUNSHIP_SQUADRON2</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_GUNBOAT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_KELL_GUNSHIP
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_KELL_GUNSHIP_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_KELL_GUNSHIP_BASE
+		TEXT_STATBLOCK_KELL_GUNSHIP_MOVE
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP1
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP2
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP3
+		</Encyclopedia_Text>
+
+		<Icon_Name>i_button_Kell_Gunship_two.tga</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>4.1</Max_Speed>
+		<Min_Speed>1.73</Min_Speed>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Fighter | AntiFighter</CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>3</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size>24</Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>30</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+	</Container>
+
+	<Squadron Name="Kell_Gunship_Squadron_Half">
+		<Text_ID>TEXT_UNIT_KELL_GUNSHIP_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_GUNBOAT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_KELL_GUNSHIP 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_KELL_GUNSHIP_SQUADRON_HALF
+		TEXT_STATBLOCK_KELL_GUNSHIP_BASE
+		TEXT_STATBLOCK_KELL_GUNSHIP_MOVE
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP1
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP2
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_Kell_Gunship_half.tga</Icon_Name>
+
+		<Damage>1</Damage>
+
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline/>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>400</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits>450</Slice_Cost_Credits>
+		<Required_Special_Structures/>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>900</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits> 420</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
+
+		<Lua_Script/>
+
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Create_Team_Type>Kell_Gunship_Squadron_Half_Container</Create_Team_Type>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-10.0,20.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-10.0,40.0,0.0</Squadron_Offsets>
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Krayt_Gunship</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move/>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Hyperspace>No</Hyperspace>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Required_Planets/>
+		<Squadron_Units>Kell_Gunship, Kell_Gunship, Kell_Gunship, Kell_Gunship, Kell_Gunship, Kell_Gunship</Squadron_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+	</Squadron>
+
+	<Container Name="Kell_Gunship_Squadron_Half_Container">
+		<Text_ID>TEXT_UNIT_KELL_GUNSHIP_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_GUNBOAT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_KELL_GUNSHIP 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_KELL_GUNSHIP_SQUADRON_HALF
+		TEXT_STATBLOCK_KELL_GUNSHIP_BASE
+		TEXT_STATBLOCK_KELL_GUNSHIP_MOVE  
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP1
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP2
+		TEXT_STATBLOCK_KELL_GUNSHIP_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_Kell_Gunship_half.tga</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>4.1</Max_Speed>
+		<Min_Speed>1.73</Min_Speed>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Fighter | AntiFighter</CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>3</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size>6</Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>30</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+	</Container>
+	
+	
+</Hutt_Space_Units>
