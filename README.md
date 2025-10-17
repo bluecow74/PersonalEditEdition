@@ -1,1 +1,0 @@
-this is my personal edit of my own mod Blue's Submod for FOTR (https://steamcommunity.com/sharedfiles/filedetails/?id=3195452821) it has some cheaty stuff in it and i often update my edit more then the actual mod itself so here have it
