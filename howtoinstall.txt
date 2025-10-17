@@ -1,5 +1,0 @@
-https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=desktop
-use this guide for getting it working and once you have it you want to put it in eaw mods folder which should be 
-whereveryoursteamis\Steam(Library)\steamapps\common\Star Wars Empire at War\corruption\Mods 
-if there isn't a mods folder just make one 
-and put assign the repository there and once thats done the only requirement is limitless heroes so the mod order should go "Modpath=Mods\Modpath=Mods\PersonalEditEdition STEAMMOD=2999856791 STEAMMOD=1976399102"
